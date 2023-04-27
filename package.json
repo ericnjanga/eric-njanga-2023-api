@@ -1,0 +1,37 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Creating a REST-API from scratch",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "start-server": "node dist/server.js",
+    "start-dev-server": "tsc-watch --onSuccess \"node dist/server.js\"",
+    "dev": "npm-run-all clean build start-dev-server",
+    "populate-db": "npm-run-all clean build run-populate-db-script",
+    "run-populate-db-script": "node dist/data/db-populate.js",
+    "delete-db": "npm-run-all clean build run-delete-db-script",
+    "run-delete-db-script": "node dist/data/db-delete.js"
+  },
+  "author": "Eric Njanga",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.10.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.14",
+    "typescript": "^5.0.3",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^4.4.1",
+    "tsc-watch": "^6.0.0"
+  }
+}
