@@ -43,7 +43,9 @@ export async function getProjects(request: Request, response: Response, next: Ne
         .getRepository(Project)
         .createQueryBuilder('projects')
         .leftJoinAndSelect('projects.categories', 'p.cat') // with all categories
-        .leftJoinAndSelect('projects.tools', 'p.tools'); // with all tools
+        // .leftJoinAndSelect('projects.tools', 'p.tools'); // with all tools
+
+
 
         // Filter by "status" only if the "status" is provided and of type "status"
         if (!isStatusType(status)) {
@@ -51,6 +53,8 @@ export async function getProjects(request: Request, response: Response, next: Ne
         } else {
             projects = projects.innerJoinAndSelect('projects.status', 'p.stat', 'p.stat.title = :bTitle', { bTitle: status });
         }
+
+       
 
         // Filter by "industryRef" only if the "industryRef" is provided and of type "industryRef"
         if (!isIndustryRefType(industry)) {

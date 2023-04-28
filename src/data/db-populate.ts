@@ -50,7 +50,7 @@ async function populateDb() {
         // Save industries (if any)
         if (projectData.industries)
         for(let industryData of projectData.industries) {
-            console.log(`Inserting industry ${industryData.title}`);
+            console.log(`--------> Inserting industry ${industryData.title}`);
             const industry = industryRepository.create(industryData);
             industry.project = project; // Link industry to project
             await industryRepository.save(industry);
@@ -59,7 +59,7 @@ async function populateDb() {
         // Save categories (if any)
         if (projectData.categories)
         for(let categoryData of projectData.categories) {
-            console.log(`Inserting category ${categoryData.title}`);
+            console.log(`--------> (1) Inserting category ${categoryData.title}`);
             const category = categoryRepository.create(categoryData);
             category.project = project; // Link category to project
             await categoryRepository.save(category);
@@ -68,7 +68,7 @@ async function populateDb() {
         // Save technologies (if any)
         if (projectData.technologies)
         for(let technologyData of projectData.technologies) {
-            console.log(`Inserting technology ${technologyData.title}`);
+            console.log(`--------> (2) Inserting technology ${technologyData.title}`);
             const technology = technologyRepository.create(technologyData);
             technology.project = project; // Link technology to project
             await technologyRepository.save(technology);
@@ -77,7 +77,7 @@ async function populateDb() {
         // Save tools (if any)
         if (projectData.tools)
         for(let toolData of projectData.tools) {
-            console.log(`Inserting tool ${toolData.title}`);
+            console.log(`--------> (3) Inserting tool ${toolData.title}`);
             const tool = toolRepository.create(toolData);
             tool.project = project; // Link tool to project
             await toolRepository.save(tool);
@@ -86,7 +86,7 @@ async function populateDb() {
         // Save status (if any)
         if (projectData.status) {
             let statusData = projectData.status; 
-            console.log(`Inserting status ${statusData.title}`);
+            console.log(`--------> (4) Inserting status ${statusData.title}`);
             const status = statusRepository.create(statusData);
             status.project = project; // Link status to project
             await statusRepository.save(status);
@@ -95,7 +95,7 @@ async function populateDb() {
         // Save the description (if any)
         if (projectData.description) {
             let descriptionData = projectData.description; 
-            console.log(`Inserting description ${descriptionData.title}`);
+            console.log(`--------> (5) Inserting description ${descriptionData.title}`);
             const description = descriptionRepository.create(descriptionData);
             description.project = project; // Link description to project
             await descriptionRepository.save(description);
@@ -104,7 +104,7 @@ async function populateDb() {
         // Save the link (if any)
         if (projectData.link) {
             let linkData = projectData.link; 
-            console.log(`Inserting link ${linkData.id}`);
+            console.log(`--------> (6) Inserting link ${linkData.id}`);
             const link = linkRepository.create(linkData);
             link.project = project; // Link link to project
             await linkRepository.save(link);
@@ -113,7 +113,7 @@ async function populateDb() {
         // Save the reference (if any)
         if (projectData.reference) {
             let referenceData = projectData.reference; 
-            console.log(`Inserting reference ${referenceData.id}`);
+            console.log(`--------> (7) Inserting reference ${referenceData.name}`);
             const reference = referenceRepository.create(referenceData);
             reference.project = project; // Link reference to project
             await referenceRepository.save(reference);

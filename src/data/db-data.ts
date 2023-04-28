@@ -72,6 +72,8 @@ export const PROJECTS: any = {
             name        : 'loblaws-marketplace',
             startDate   : '',
             endDate     : '',
+            industry    : 'Food retail',
+            teamCount   : '',
         }
     }, 
 
@@ -133,6 +135,8 @@ export const PROJECTS: any = {
             name        : 'meroe-global',
             startDate   : '',
             endDate     : '',
+            industry    : 'Communication',
+            teamCount   : '',
         }
     }, 
 
@@ -194,6 +198,8 @@ export const PROJECTS: any = {
             name        : 'ppcb-website',
             startDate   : '',
             endDate     : '',
+            industry    : 'Entrepreneurship',
+            teamCount   : '',
         }
     }, 
 
@@ -275,6 +281,8 @@ export const PROJECTS: any = {
             name        : 'club-des-amoureux-du-basket',
             startDate   : '',
             endDate     : '',
+            industry    : 'Sport',
+            teamCount   : '',
         }
     }, 
 
@@ -356,6 +364,8 @@ export const PROJECTS: any = {
             name        : 'mkz-technologies',
             startDate   : '',
             endDate     : '',
+            industry    : 'Business',
+            teamCount   : '',
         }
     }, 
 
@@ -418,6 +428,8 @@ export const PROJECTS: any = {
             name        : 'activation-beaute',
             startDate   : '',
             endDate     : '',
+            industry    : 'Advertising',
+            teamCount   : '',
         }
     }, 
 
@@ -479,6 +491,8 @@ export const PROJECTS: any = {
             name        : 'canadian-congress-diversity',
             startDate   : '',
             endDate     : '',
+            industry    : 'Non-profit',
+            teamCount   : '',
         }
     },  
 
@@ -540,20 +554,14 @@ export const PROJECTS: any = {
             name        : 'moy-fung-website',
             startDate   : '',
             endDate     : '',
+            industry    : 'Entrepreneurship',
+            teamCount   : '',
         }
     },  
 
 
 
 
-        // {  
-    //     shortDescription: 'Coding of a WordPress website whose template was provided by a third-party.',
-    //     thumbnail: './../../../assets/img/finafrik-uk.png',
-    //     category: CATEGORY_DATABASE[0],
-    //     subCategory: CATEGORY_DATABASE[3],
-    //     status: 'published',
-    //     live: 'https://finafrik.co.uk/',
-    // }, 
 
 
 
@@ -617,6 +625,8 @@ export const PROJECTS: any = {
             name        : 'finafrik-uk--jerry-project',
             startDate   : '',
             endDate     : '',
+            industry    : 'Business',
+            teamCount   : '',
         }
     },   
 
@@ -693,6 +703,8 @@ export const PROJECTS: any = {
             name        : 'kt-house-ecommerce-website-design',
             startDate   : '',
             endDate     : '',
+            industry    : 'eCommerce',
+            teamCount   : '',
         }
     },  
 
@@ -794,6 +806,8 @@ export const PROJECTS: any = {
             name        : 'tcholli-ui-design',
             startDate   : '',
             endDate     : '',
+            industry    : 'Commercial Airlines',
+            teamCount   : '',
         }
     },  
 
@@ -889,6 +903,8 @@ export const PROJECTS: any = {
             name        : 'richy-group',
             startDate   : '',
             endDate     : '',
+            industry    : 'Business',
+            teamCount   : '',
         }
     },   
 
@@ -964,6 +980,8 @@ export const PROJECTS: any = {
             name        : 'collaboration-with-herve-momo-community-ecommerce',
             startDate   : '',
             endDate     : '',
+            industry    : 'eCommerce',
+            teamCount   : '',
         }
     },  
 
@@ -1033,6 +1051,8 @@ export const PROJECTS: any = {
             name        : 'Herve Djoumbi Hepatitis B (AI project)',
             startDate   : '',
             endDate     : '',
+            industry    : 'Healthcare',
+            teamCount   : '',
         }
     }, 
 
@@ -1108,6 +1128,8 @@ export const PROJECTS: any = {
             name        : 'Dummy post',
             startDate   : '',
             endDate     : '',
+            industry    : 'dummy industry',
+            teamCount   : '',
         }
     }, 
 
@@ -1136,6 +1158,40 @@ export const PROJECTS: any = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // {  
+    //     shortDescription: 'Coding of a WordPress website whose template was provided by a third-party.',
+    //     thumbnail: './../../../assets/img/finafrik-uk.png',
+    //     category: CATEGORY_DATABASE[0],
+    //     subCategory: CATEGORY_DATABASE[3],
+    //     status: 'published',
+    //     live: 'https://finafrik.co.uk/',
+    // }, 
 
 
 
