@@ -30,9 +30,6 @@ export class Project {
     pageUrl     : string;
 
     @Column()
-    liveUrl     : string;
-
-    @Column()
     thumbnail           : string;
 
     @Column()

@@ -2,24 +2,29 @@ import { NextFunction, Request, Response } from "express";
 import { logger } from "../logger";
 import { AppDataSource } from "../data-source";
 import { Project } from "../models/Project";
-import { Industry } from "../models/Industry";
 import { Description } from "../models/Description";
+import { Link } from "../models/Link";
 
 
 /*
-    title       : string;
 
     @Column()
-    shortDescription         : string;
+    git       : string;
 
     @Column()
-    context         : string;
+    figma         : string;
 
     @Column()
-    contribution         : string;
+    figmaJam         : string;
 
     @Column()
-    constraints         : string;
+    prototype         : string;
+
+    @Column()
+    presentation         : string;
+
+    @Column()
+    live         : string;
     */
 
 
@@ -52,8 +57,6 @@ export async function getProjectDetail(request: Request, response: Response, nex
         }
 
         // Get descriptions
-
-        // project = (await project).innerJoinAndSelect('projects.status', 'p.stat', 'p.stat.title = :bTitle', { bTitle: status });
         const description = AppDataSource
             .getRepository(Description)
             .createQueryBuilder('description')
@@ -62,16 +65,26 @@ export async function getProjectDetail(request: Request, response: Response, nex
             })
             .getOne();
 
+        // Get links
+        const links = AppDataSource
+            .getRepository(Link)
+            .createQueryBuilder('link')
+            .where('link.projectId = :projectId', {
+                projectId: (await project).id
+            })
+            .getOne();
+
         
         
         // The response
-        const [intro, desc] = await Promise.all([
+        const [intro, desc, link] = await Promise.all([
             project,
             description,
+            links
         ]);
 
         // Building the HTTP response
-        response.status(200).json({ intro, desc });
+        response.status(200).json({ intro, desc, link });
     }
 
     catch (error) {

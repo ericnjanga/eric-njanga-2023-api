@@ -1,7 +1,4 @@
 
-
-
-
 export const PROJECTS: any = {
    
     2: {
@@ -10,7 +7,6 @@ export const PROJECTS: any = {
         title: 'Coding a food retail giant\'s online extension', 
         refName: 'loblaws-marketplace',
         pageUrl: 'coding-a-food-retail-giants-online-extension',
-        liveUrl: 'loblaws-marketplace',
         thumbnail: './../../../assets/img/project-2-tmb.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -24,7 +20,7 @@ export const PROJECTS: any = {
             figmaJam        : 'figmaJam...',
             prototype       : 'prototype...',
             presentation    : 'presentation...',
-            live            : 'live...',
+            live            : 'https://www.loblaws.ca/marketplace',
         },
         shortDescription: 'Writing code, creating markup and styles for the UI of a large scale React application.',
         industries: [
@@ -81,7 +77,6 @@ export const PROJECTS: any = {
         title: 'meroe-global', 
         refName: 'meroe-global',
         pageUrl: '',
-        liveUrl: 'meroe-global',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -139,7 +134,6 @@ export const PROJECTS: any = {
         title: 'ppcb-website', 
         refName: 'ppcb-website',
         pageUrl: '',
-        liveUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -197,7 +191,6 @@ export const PROJECTS: any = {
         title: 'club-des-amoureux-du-basket', 
         refName: 'club-des-amoureux-du-basket',
         pageUrl: '',
-        liveUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -275,7 +268,6 @@ export const PROJECTS: any = {
         title: 'mkz-technologies', 
         refName: 'mkz-technologies',
         pageUrl: '',
-        liveUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -354,7 +346,6 @@ export const PROJECTS: any = {
         title: 'activation-beaute', 
         refName: 'activation-beaute',
         pageUrl: '',
-        liveUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -412,7 +403,6 @@ export const PROJECTS: any = {
         title: 'canadian-congress-diversity', 
         refName: 'canadian-congress-diversity',
         pageUrl: '',
-        liveUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -470,7 +460,6 @@ export const PROJECTS: any = {
         title: 'Solopreneur coversion page design', 
         refName: 'moy-fung-website',
         pageUrl: '',
-        liveUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -528,11 +517,10 @@ export const PROJECTS: any = {
         // {  
     //     shortDescription: 'Coding of a WordPress website whose template was provided by a third-party.',
     //     thumbnail: './../../../assets/img/finafrik-uk.png',
-    
     //     category: CATEGORY_DATABASE[0],
     //     subCategory: CATEGORY_DATABASE[3],
     //     status: 'published',
-    //     liveliveUrl: 'https://finafrik.co.uk/',
+    //     live: 'https://finafrik.co.uk/',
     // }, 
 
 
@@ -545,7 +533,6 @@ export const PROJECTS: any = {
         title: 'Finafrik UK', 
         refName: 'finafrik-uk',
         pageUrl: '',
-        liveUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -604,7 +591,6 @@ export const PROJECTS: any = {
         title: 'kt-house-ecommerce-website-design', 
         refName: 'kt-house-ecommerce-website-design',
         pageUrl: '',
-        liveUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -676,7 +662,6 @@ export const PROJECTS: any = {
         title: 'Fixing a nightmarish booking system', 
         refName: 'tcholli-ui-design',
         pageUrl: '25-fixing-a-nightmarish-booking-system',
-        liveUrl: 'tcholli-ui-design',
         thumbnail: './../../../assets/img/project-25-tmb.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -775,7 +760,6 @@ export const PROJECTS: any = {
         title: 'richy-group', 
         refName: 'richy-group',
         pageUrl: '',
-        liveUrl: 'richy-group',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -867,8 +851,21 @@ export const PROJECTS: any = {
         title: 'Connecting the dots of a social business', 
         refName: 'herve-momo-community-ecommerce',
         pageUrl: '28-connecting-the-dots-of-a-social-business',
-        liveUrl: 'herve-momo-community-ecommerce',
         thumbnail: './../../../assets/img/project-28-tmb.png',
+        description: {
+            title               : '** Coding a food retail giant\'s online extension',
+            context             : '** context',
+            contribution        : '** contribution',
+            constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
         shortDescription: 'Creating wireframes that illustrate my understanding of an African-canadian social business.',
         industries: [
             {
@@ -925,7 +922,6 @@ export const PROJECTS: any = {
         title: 'Prototyping of an AI-based Healthcare Diagnostic Tool', 
         refName: 'Herve Djoumbi Hepatitis B (AI project)',
         pageUrl: 'prototyping-of-an-ai-based-healthcare-diagnostic-tool',
-        liveUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -991,7 +987,6 @@ export const PROJECTS: any = {
         title: 'dummy-post-for-test-delete', 
         refName: 'dummy-post-for-test-delete',
         pageUrl: '',
-        liveUrl: 'dummy-post-for-test-delete',
         thumbnail: 'dummy-post-for-test-delete',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -1087,16 +1082,14 @@ export const PROJECTS: any = {
 
     // {
     //     id: 10,
-    //     name: 'george-floyd-memorial-website',
-    //     liveUrl: 'george-floyd-memorial-website',
+    //     name: 'george-floyd-memorial-website', 
     //     title: 'george-floyd-memorial-website', 
     //     shortDescription: '...',
     //     thumbnail: './../../../assets/img/finafrik-uk.png',
     
     //     category: CATEGORY_DATABASE[0],
     //     subCategory: CATEGORY_DATABASE[3],
-    //     status: 'published',
-    //     liveliveUrl: 'https://finafrik.co.uk/',
+    //     status: 'published', 
     // },
 
 
@@ -1104,108 +1097,92 @@ export const PROJECTS: any = {
 
     // {
     //     id: 10,
-    //     name: 'phica-website',
-    //     liveUrl: 'phica-website',
+    //     name: 'phica-website', 
     //     title: 'phica-website', 
     //     shortDescription: '...',
     //     thumbnail: './../../../assets/img/finafrik-uk.png',
     
     //     category: CATEGORY_DATABASE[0],
     //     subCategory: CATEGORY_DATABASE[3],
-    //     status: 'published',
-    //     liveliveUrl: 'https://finafrik.co.uk/',
+    //     status: 'published', 
     // }, 
     // {
     //     id: 10,
-    //     name: 'boulevard-des-philosophes',
-    //     liveUrl: 'boulevard-des-philosophes',
+    //     name: 'boulevard-des-philosophes', 
     //     title: 'boulevard-des-philosophes', 
     //     shortDescription: '...',
     //     thumbnail: './../../../assets/img/finafrik-uk.png',
     
     //     category: CATEGORY_DATABASE[0],
     //     subCategory: CATEGORY_DATABASE[3],
-    //     status: 'published',
-    //     liveliveUrl: 'https://finafrik.co.uk/',
+    //     status: 'published', 
     // }, 
 
     // {
     //     id: 16,
-    //     name: 'bains-33',
-    //     liveUrl: '',
+    //     name: 'bains-33', 
     //     title: 'Real-estalte conversion page design', 
     //     shortDescription: 'Design of landing page to attract and covert corporate rental offices ...',
     //     thumbnail: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
-    //     status: 'published',
-    //     liveliveUrl: '',
+    //     status: 'published', 
     // }, 
     // {
     //     id: 18,
-    //     name: 'comoros-government-website-proposal',
-    //     liveUrl: '',
+    //     name: 'comoros-government-website-proposal', 
     //     title: 'Comoros Government website', 
     //     shortDescription: "Landing page design proposal for the Government of Comoros new web portal.",
     //     thumbnail: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
-    //     status: 'published',
-    //     liveliveUrl: '',
+    //     status: 'published', 
     // },  
     // {
     //     id: 19,
-    //     name: 'zoabiss-chicks-website',
-    //     liveUrl: '',
+    //     name: 'zoabiss-chicks-website', 
     //     title: 'Conversion landing page design', 
     //     shortDescription: 'Design of a landing page of an African chicken broiler business.',
     //     thumbnail: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
-    //     status: 'published',
-    //     liveliveUrl: '',
+    //     status: 'published', 
     // },  
     // {
     //     id: 20,
-    //     name: 'scec-website',
-    //     liveUrl: '',
+    //     name: 'scec-website', 
     //     title: 'Corporate landing page design', 
     //     shortDescription: 'SCEC company website - Design of a corporate landing page for an African micro bank',
     //     thumbnail: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
-    //     status: 'published',
-    //     liveliveUrl: 'https://www.scecsa.com/',
+    //     status: 'published', 
     // },  
     // {
     //     id: 21,
-    //     name: 'smobilpay-website',
-    //     liveUrl: '',
+    //     name: 'smobilpay-website', 
     //     title: 'Corporate website design', 
     //     shortDescription: '...',
     //     thumbnail: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
-    //     status: 'published',
-    //     liveliveUrl: '',
+    //     status: 'published', 
     // },  
     // {
     //     id: 22,
-    //     name: 'smobilpay-payment-process-portal',
-    //     liveUrl: '',
+    //     name: 'smobilpay-payment-process-portal', 
     //     title: 'Smobilpay payment process', 
     //     shortDescription: '...',
     //     thumbnail: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
-    //     status: 'published',
-    //     liveliveUrl: '',
+    //     status: 'published', 
     // },     
    
 };
