@@ -37,9 +37,6 @@ export class Project {
     @Column()
     shortDescription    : string;
 
-    @Column()
-    longDescription : string;
-
     // (1 to many relationship) ...
     // A project can be related to only many descriptions
     @OneToOne(() => Description, Description => Description.project)

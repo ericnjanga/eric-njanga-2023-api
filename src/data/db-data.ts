@@ -14,13 +14,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/project-2-tmb.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Writing code, creating markup and styles for the UI of a large scale React application.',
-        longDescription : '',
         industries: [
             {
                 id: 0,
@@ -79,13 +77,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
-        longDescription : '',
         industries: [
             {
                 id: 1,
@@ -131,13 +127,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
-        longDescription : '',
         industries: [
             {
                 id: 1,
@@ -183,13 +177,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
-        longDescription : '',
         industries: [
             {
                 id: 0,
@@ -255,13 +247,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
-        longDescription : '',
         industries: [
             {
                 id: 0,
@@ -328,13 +318,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
-        longDescription : '',
         industries: [
             {
                 id: 1,
@@ -380,13 +368,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
-        longDescription : '',
         industries: [
             {
                 id: 1,
@@ -432,13 +418,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
-        longDescription : '',
         industries: [
             {
                 id: 1,
@@ -501,13 +485,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Coding of a WordPress website whose template was provided by a third-party.',
-        longDescription : '',
         industries: [
             {
                 id: 0,
@@ -554,13 +536,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
-        longDescription : '',
         industries: [
             {
                 id: 1,
@@ -620,13 +600,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/project-25-tmb.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Creating wireframes, protoypes, testing designs with users, and coding the UI in Angular.',
-        longDescription : '',
         industries: [
             {
                 id: 0,
@@ -713,13 +691,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
-        longDescription : '',
         industries: [
             {
                 id: 0,
@@ -798,7 +774,6 @@ export const PROJECTS: any = {
         liveUrl: 'herve-momo-community-ecommerce',
         thumbnail: './../../../assets/img/project-28-tmb.png',
         shortDescription: 'Creating wireframes that illustrate my understanding of an African-canadian social business.',
-        longDescription : '',
         industries: [
             {
                 id: 1,
@@ -858,13 +833,11 @@ export const PROJECTS: any = {
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
-        longDescription : '',
         industries: [
             {
                 id: 1,
@@ -918,13 +891,11 @@ export const PROJECTS: any = {
         thumbnail: 'dummy-post-for-test-delete',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
-            shortDescription    : '** Writing code, creating markup and styles for the UI of a large scale React application.',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         shortDescription: 'dummy-post-for-test-delete',
-        longDescription : '',
         industries: [
             {
                 id: 1,

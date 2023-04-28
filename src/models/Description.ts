@@ -15,9 +15,6 @@ export class Description {
     title       : string;
 
     @Column()
-    shortDescription         : string;
-
-    @Column()
     context         : string;
 
     @Column()

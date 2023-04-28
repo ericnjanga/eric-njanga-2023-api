@@ -70,7 +70,7 @@ function setupExpress () {
      * curl -X PATCH http://localhost:7000/api/projects/172 -H "Content-Type:application/json" -d '{"title":"Loblaws Marketplace ***"}'
      * 
      * 2) CREATE (A new project)
-     * curl -X POST http://localhost:7000/api/projects/ -H "Content-Type:application/json" -d '{"title": "???", "refName": "???", "liveUrl": "???", "thumbnail": "???", "shortDescription": "???", "longDescription": "???"}'
+     * curl -X POST http://localhost:7000/api/projects/ -H "Content-Type:application/json" -d '{"title": "???", "refName": "???", "liveUrl": "???", "thumbnail": "???", "shortDescription": "???" }'
      * 
      * 3) DELETE (A projects and all associated records in the database)
      * curl -X DELETE http://localhost:7000/api/projects/213
