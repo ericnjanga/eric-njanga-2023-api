@@ -70,8 +70,8 @@ export const PROJECTS: any = {
         },
         reference: {
             name        : 'loblaws-marketplace',
-            startDate   : '',
-            endDate     : '',
+            startDate   : '2019-02',
+            endDate     : '2020-03',
             industry    : 'Food retail',
             teamCount   : 7,
         }
@@ -133,8 +133,8 @@ export const PROJECTS: any = {
         },
         reference: {
             name        : 'meroe-global',
-            startDate   : '',
-            endDate     : '',
+            startDate   : '2020-08',
+            endDate     : '2020-10',
             industry    : 'Communication',
             teamCount   : 2,
         }
@@ -196,16 +196,80 @@ export const PROJECTS: any = {
         },
         reference: {
             name        : 'ppcb-website',
-            startDate   : '',
-            endDate     : '',
+            startDate   : '07-2020',
+            endDate     : '10-2020',
             industry    : 'Entrepreneurship',
             teamCount   : 6,
         }
     }, 
 
+    // 6
     12: {
         id: 12,
         seqNo   : 12,
+        title: 'activation-beaute', 
+        pageUrl: '',
+        thumbnail: './../../../assets/img/meroe-global.png',
+        description: {
+            title               : '** Coding a food retail giant\'s online extension',
+            context             : '** context',
+            contribution        : '** contribution',
+            constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
+        shortDescription: 'Design of a corporate website for a French communication agency.',
+        industries: [
+            {
+                id: 1,
+                seqNo   : 1,
+                title: 'UX Design',
+                refName: 'ux-design',
+                shortDescription: ''
+            }
+        ],
+        categories: [
+            {
+                id: 1,
+                seqNo   : 1,
+                title: 'Concept Design',
+                refName: 'concept-design',
+                shortDescription: ''
+            }
+        ],
+        technologies: [],
+        tools: [
+            {
+                id: 3,
+                seqNo   : 3,
+                title: 'Figma Design',
+                shortDescription: ''
+            }
+        ],
+        status: {
+            id: 0,
+            seqNo: 0,
+            title: 'published',
+            shortDescription: ''
+        },
+        reference: {
+            name        : 'activation-beaute',
+            startDate   : '04-2021',
+            endDate     : '05-2021',
+            industry    : 'Advertising',
+            teamCount   : 2,
+        }
+    }, 
+
+    13: {
+        id: 13,
+        seqNo   : 13,
         title: 'club-des-amoureux-du-basket', 
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
@@ -278,17 +342,82 @@ export const PROJECTS: any = {
             shortDescription: ''
         },
         reference: {
-            name        : 'club-des-amoureux-du-basket',
-            startDate   : '',
-            endDate     : '',
+            name        : 'BBD-players---club-des-amoureux-du-basket---eric-tchuisseu',
+            startDate   : '05-2021',
+            endDate     : '06-2021',
             industry    : 'Sport',
             teamCount   : 2,
         }
     }, 
 
-    13: {
-        id: 13,
-        seqNo   : 13,
+
+
+    14: {
+        id: 14,
+        seqNo   : 14,
+        title: 'Solopreneur coversion page design',
+        pageUrl: '',
+        thumbnail: './../../../assets/img/meroe-global.png',
+        description: {
+            title               : '** Coding a food retail giant\'s online extension',
+            context             : '** context',
+            contribution        : '** contribution',
+            constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
+        shortDescription: 'Design of a corporate website for a French communication agency.',
+        industries: [
+            {
+                id: 1,
+                seqNo   : 1,
+                title: 'UX Design',
+                refName: 'ux-design',
+                shortDescription: ''
+            }
+        ],
+        categories: [
+            {
+                id: 1,
+                seqNo   : 1,
+                title: 'Concept Design',
+                refName: 'concept-design',
+                shortDescription: ''
+            }
+        ],
+        technologies: [],
+        tools: [
+            {
+                id: 3,
+                seqNo   : 3,
+                title: 'Figma Design',
+                shortDescription: ''
+            }
+        ],
+        status: {
+            id: 0,
+            seqNo: 0,
+            title: 'draft',
+            shortDescription: ''
+        },
+        reference: {
+            name        : 'moy-fung-website',
+            startDate   : '06-2021',
+            endDate     : '07-2021',
+            industry    : 'Entrepreneurship',
+            teamCount   : 2,
+        }
+    },  
+
+    15: {
+        id: 15,
+        seqNo   : 15,
         title: 'mkz-technologies', 
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
@@ -362,80 +491,16 @@ export const PROJECTS: any = {
         },
         reference: {
             name        : 'mkz-technologies',
-            startDate   : '',
-            endDate     : '',
+            startDate   : '06-2021',
+            endDate     : '07-2021',
             industry    : 'Business',
             teamCount   : 4,
         }
     }, 
 
-    // 6
-    14: {
-        id: 14,
-        seqNo   : 14,
-        title: 'activation-beaute', 
-        pageUrl: '',
-        thumbnail: './../../../assets/img/meroe-global.png',
-        description: {
-            title               : '** Coding a food retail giant\'s online extension',
-            context             : '** context',
-            contribution        : '** contribution',
-            constraints         : '** constraints'
-        },
-        link        : {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
-        },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
-        industries: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'UX Design',
-                refName: 'ux-design',
-                shortDescription: ''
-            }
-        ],
-        categories: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'Concept Design',
-                refName: 'concept-design',
-                shortDescription: ''
-            }
-        ],
-        technologies: [],
-        tools: [
-            {
-                id: 3,
-                seqNo   : 3,
-                title: 'Figma Design',
-                shortDescription: ''
-            }
-        ],
-        status: {
-            id: 0,
-            seqNo: 0,
-            title: 'published',
-            shortDescription: ''
-        },
-        reference: {
-            name        : 'activation-beaute',
-            startDate   : '',
-            endDate     : '',
-            industry    : 'Advertising',
-            teamCount   : 2,
-        }
-    }, 
-
-    15: { 
-        id: 15,
-        seqNo   : 15,
+    16: { 
+        id: 16,
+        seqNo   : 16,
         title: 'canadian-congress-diversity', 
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
@@ -489,73 +554,10 @@ export const PROJECTS: any = {
         },
         reference: {
             name        : 'canadian-congress-diversity',
-            startDate   : '',
-            endDate     : '',
+            startDate   : '07-2021',
+            endDate     : '08-2021',
             industry    : 'Non-profit',
             teamCount   : 3,
-        }
-    },  
-
-    16: {
-        id: 16,
-        seqNo   : 16,
-        title: 'Solopreneur coversion page design',
-        pageUrl: '',
-        thumbnail: './../../../assets/img/meroe-global.png',
-        description: {
-            title               : '** Coding a food retail giant\'s online extension',
-            context             : '** context',
-            contribution        : '** contribution',
-            constraints         : '** constraints'
-        },
-        link        : {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
-        },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
-        industries: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'UX Design',
-                refName: 'ux-design',
-                shortDescription: ''
-            }
-        ],
-        categories: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'Concept Design',
-                refName: 'concept-design',
-                shortDescription: ''
-            }
-        ],
-        technologies: [],
-        tools: [
-            {
-                id: 3,
-                seqNo   : 3,
-                title: 'Figma Design',
-                shortDescription: ''
-            }
-        ],
-        status: {
-            id: 0,
-            seqNo: 0,
-            title: 'draft',
-            shortDescription: ''
-        },
-        reference: {
-            name        : 'moy-fung-website',
-            startDate   : '',
-            endDate     : '',
-            industry    : 'Entrepreneurship',
-            teamCount   : 2,
         }
     },  
 
@@ -623,8 +625,8 @@ export const PROJECTS: any = {
         },
         reference: {
             name        : 'finafrik-uk--jerry-project',
-            startDate   : '',
-            endDate     : '',
+            startDate   : '01-2022',
+            endDate     : '02-2022',
             industry    : 'Business',
             teamCount   : 3,
         }
@@ -701,8 +703,8 @@ export const PROJECTS: any = {
         },
         reference: {
             name        : 'kt-house-ecommerce-website-design',
-            startDate   : '',
-            endDate     : '',
+            startDate   : '03-2022',
+            endDate     : '05-2022',
             industry    : 'eCommerce',
             teamCount   : 2,
         }
@@ -804,17 +806,165 @@ export const PROJECTS: any = {
         },
         reference: {
             name        : 'tcholli-ui-design',
-            startDate   : '',
-            endDate     : '',
+            startDate   : '11-2022',
+            endDate     : '02-2023',
             industry    : 'Commercial Airlines',
             teamCount   : 3,
         }
     },  
 
-    // 11
+    // 13
+    26: {
+        id: 26,
+        seqNo   : 26,
+        title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
+        pageUrl: 'prototyping-of-an-ai-based-healthcare-diagnostic-tool',
+        thumbnail: './../../../assets/img/meroe-global.png',
+        description: {
+            title               : '** Coding a food retail giant\'s online extension',
+            context             : '** context',
+            contribution        : '** contribution',
+            constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
+        shortDescription: 'Design of a corporate website for a French communication agency.',
+        industries: [
+            {
+                id: 1,
+                seqNo   : 1,
+                title: 'UX Design',
+                refName: 'ux-design',
+                shortDescription: ''
+            }
+        ],
+        categories: [
+            {
+                id: 1,
+                seqNo   : 1,
+                title: 'Concept Design',
+                refName: 'concept-design',
+                shortDescription: ''
+            }
+        ],
+        technologies: [
+        ],
+        tools: [
+            {
+                id: 3,
+                seqNo   : 3,
+                title: 'Figma Design',
+                shortDescription: ''
+            },
+            {
+                id: 5,
+                seqNo   : 5,
+                title: 'Figma Jam',
+                shortDescription: ''
+            }
+        ],
+        status: {
+            id: 2,
+            seqNo: 2,
+            title: 'published',
+            shortDescription: ''
+        },
+        reference: {
+            name        : 'Herve Djoumbi Hepatitis B (AI project)',
+            startDate   : '03-2023',
+            endDate     : '04-2023',
+            industry    : 'Healthcare',
+            teamCount   : 2,
+        }
+    }, 
+
+    // 12
     27: {
         id: 27,
         seqNo   : 27,
+        title: 'Connecting the dots of a social business', 
+        pageUrl: 'connecting-the-dots-of-a-social-business',
+        thumbnail: './../../../assets/img/project-28-tmb.png',
+        description: {
+            title               : '** Coding a food retail giant\'s online extension',
+            context             : '** context',
+            contribution        : '** contribution',
+            constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
+        shortDescription: 'Creating wireframes that illustrate my understanding of an African-canadian social business.',
+        industries: [
+            {
+                id: 1,
+                seqNo   : 1,
+                title: 'UX Design',
+                refName: 'ux-design',
+                shortDescription: ''
+            }
+        ],
+        categories: [
+            {
+                id: 1,
+                seqNo   : 1,
+                title: 'Concept Design',
+                refName: 'concept-design',
+                shortDescription: ''
+            }
+        ],
+        technologies: [
+        ],
+        tools: [
+            {
+                id: 0,
+                seqNo   : 0,
+                title: 'Visual Studio Code',
+                shortDescription: ''
+            },
+            {
+                id: 3,
+                seqNo   : 3,
+                title: 'Figma Design',
+                shortDescription: ''
+            },
+            {
+                id: 5,
+                seqNo   : 5,
+                title: 'Figma Jam',
+                shortDescription: ''
+            }
+        ],
+        status: {
+            id: 2,
+            seqNo: 2,
+            title: 'draft',
+            shortDescription: ''
+        },
+        reference: {
+            name        : 'collaboration-with-herve-momo-community-ecommerce',
+            startDate   : '04-2023',
+            endDate     : '',
+            industry    : 'eCommerce',
+            teamCount   : 2,
+        }
+    },   
+
+    // 11
+    28: {
+        id: 28,
+        seqNo   : 28,
         title: 'richy-group', 
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
@@ -906,232 +1056,7 @@ export const PROJECTS: any = {
             industry    : 'Business',
             teamCount   : 4,
         }
-    },   
-
-    // 12
-    28: {
-        id: 28,
-        seqNo   : 28,
-        title: 'Connecting the dots of a social business', 
-        pageUrl: '28-connecting-the-dots-of-a-social-business',
-        thumbnail: './../../../assets/img/project-28-tmb.png',
-        description: {
-            title               : '** Coding a food retail giant\'s online extension',
-            context             : '** context',
-            contribution        : '** contribution',
-            constraints         : '** constraints'
-        },
-        link        : {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
-        },
-        shortDescription: 'Creating wireframes that illustrate my understanding of an African-canadian social business.',
-        industries: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'UX Design',
-                refName: 'ux-design',
-                shortDescription: ''
-            }
-        ],
-        categories: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'Concept Design',
-                refName: 'concept-design',
-                shortDescription: ''
-            }
-        ],
-        technologies: [
-        ],
-        tools: [
-            {
-                id: 0,
-                seqNo   : 0,
-                title: 'Visual Studio Code',
-                shortDescription: ''
-            },
-            {
-                id: 3,
-                seqNo   : 3,
-                title: 'Figma Design',
-                shortDescription: ''
-            },
-            {
-                id: 5,
-                seqNo   : 5,
-                title: 'Figma Jam',
-                shortDescription: ''
-            }
-        ],
-        status: {
-            id: 2,
-            seqNo: 2,
-            title: 'published',
-            shortDescription: ''
-        },
-        reference: {
-            name        : 'collaboration-with-herve-momo-community-ecommerce',
-            startDate   : '',
-            endDate     : '',
-            industry    : 'eCommerce',
-            teamCount   : 2,
-        }
     },  
-
-    // 13
-    29: {
-        id: 29,
-        seqNo   : 29,
-        title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
-        pageUrl: 'prototyping-of-an-ai-based-healthcare-diagnostic-tool',
-        thumbnail: './../../../assets/img/meroe-global.png',
-        description: {
-            title               : '** Coding a food retail giant\'s online extension',
-            context             : '** context',
-            contribution        : '** contribution',
-            constraints         : '** constraints'
-        },
-        link        : {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
-        },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
-        industries: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'UX Design',
-                refName: 'ux-design',
-                shortDescription: ''
-            }
-        ],
-        categories: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'Concept Design',
-                refName: 'concept-design',
-                shortDescription: ''
-            }
-        ],
-        technologies: [
-        ],
-        tools: [
-            {
-                id: 3,
-                seqNo   : 3,
-                title: 'Figma Design',
-                shortDescription: ''
-            },
-            {
-                id: 5,
-                seqNo   : 5,
-                title: 'Figma Jam',
-                shortDescription: ''
-            }
-        ],
-        status: {
-            id: 2,
-            seqNo: 2,
-            title: 'published',
-            shortDescription: ''
-        },
-        reference: {
-            name        : 'Herve Djoumbi Hepatitis B (AI project)',
-            startDate   : '',
-            endDate     : '',
-            industry    : 'Healthcare',
-            teamCount   : 2,
-        }
-    }, 
-
-    // 14
-    30: {
-        id: 30,
-        seqNo   : 30,
-        title: 'dummy-post-for-test-delete', 
-        pageUrl: '',
-        thumbnail: 'dummy-post-for-test-delete',
-        description: {
-            title               : '** Coding a food retail giant\'s online extension',
-            context             : '** context',
-            contribution        : '** contribution',
-            constraints         : '** constraints'
-        },
-        link        : {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
-        },
-        shortDescription: 'dummy-post-for-test-delete',
-        industries: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'UX Design',
-                refName: 'ux-design',
-                shortDescription: ''
-            }
-        ],
-        categories: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'Concept Design',
-                refName: 'concept-design',
-                shortDescription: ''
-            }
-        ],
-        technologies: [
-            {
-                id: 1,
-                seqNo   : 1,
-                title: 'Angular',
-                shortDescription: ''
-            }
-        ],
-        tools: [
-            {
-                id: 0,
-                seqNo   : 0,
-                title: 'Visual Studio Code',
-                shortDescription: ''
-            },
-            {
-                id: 3,
-                seqNo   : 3,
-                title: 'Figma Design',
-                shortDescription: ''
-            }
-        ],
-        status: {
-            id: 2,
-            seqNo: 2,
-            title: 'draft',
-            shortDescription: ''
-        },
-        reference: {
-            name        : 'Dummy post',
-            startDate   : '',
-            endDate     : '',
-            industry    : 'dummy industry',
-            teamCount   : 0,
-        }
-    }, 
 
 
 

@@ -43,6 +43,7 @@ export async function getProjects(request: Request, response: Response, next: Ne
         .getRepository(Project)
         .createQueryBuilder('projects')
         .leftJoinAndSelect('projects.categories', 'p.cat') // with all categories
+        .leftJoinAndSelect('projects.reference', 'p.ref') // with all references
         // .leftJoinAndSelect('projects.tools', 'p.tools'); // with all tools
 
 
