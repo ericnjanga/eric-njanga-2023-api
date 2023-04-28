@@ -18,6 +18,14 @@ export const PROJECTS: any = {
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
         shortDescription: 'Writing code, creating markup and styles for the UI of a large scale React application.',
         industries: [
             {
@@ -81,6 +89,14 @@ export const PROJECTS: any = {
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
         shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
@@ -131,6 +147,14 @@ export const PROJECTS: any = {
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
         shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
@@ -180,6 +204,14 @@ export const PROJECTS: any = {
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
@@ -250,6 +282,14 @@ export const PROJECTS: any = {
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
@@ -322,6 +362,14 @@ export const PROJECTS: any = {
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
         shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
@@ -372,6 +420,14 @@ export const PROJECTS: any = {
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
         shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
@@ -421,6 +477,14 @@ export const PROJECTS: any = {
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
@@ -489,6 +553,14 @@ export const PROJECTS: any = {
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
         shortDescription: 'Coding of a WordPress website whose template was provided by a third-party.',
         industries: [
             {
@@ -539,6 +611,14 @@ export const PROJECTS: any = {
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
@@ -603,6 +683,14 @@ export const PROJECTS: any = {
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
         },
         shortDescription: 'Creating wireframes, protoypes, testing designs with users, and coding the UI in Angular.',
         industries: [
@@ -694,6 +782,14 @@ export const PROJECTS: any = {
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
         },
         shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
@@ -837,6 +933,14 @@ export const PROJECTS: any = {
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
+        },
         shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
@@ -894,6 +998,14 @@ export const PROJECTS: any = {
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
+        },
+        link        : {
+            git             : 'git...',
+            figma           : 'figma...',
+            figmaJam        : 'figmaJam...',
+            prototype       : 'prototype...',
+            presentation    : 'presentation...',
+            live            : 'live...',
         },
         shortDescription: 'dummy-post-for-test-delete',
         industries: [

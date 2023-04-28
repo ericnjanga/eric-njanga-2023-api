@@ -2,10 +2,11 @@
 import { Column, CreateDateColumn, Entity, OneToMany, OneToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { Category } from "./Category";
 import { Industry } from "./Industry";
-import { Description } from "./Description";
 import { Technology } from "./Technology";
 import { Tool } from "./Tool";
 import { Status } from "./Status";
+import { Description } from "./Description";
+import { Link } from "./Link";
 
 //Decorator turns the class into a Typeorm model
 @Entity({
@@ -37,13 +38,15 @@ export class Project {
     @Column()
     shortDescription    : string;
 
-    // (1 to many relationship) ...
-    // A project can be related to only many descriptions
+    // A project can be related to only description (1 to 1 relationship)
     @OneToOne(() => Description, Description => Description.project)
     description: Description;
 
-    // (1 to many relationship) ...
-    // A project can be related to many industries
+    // A project can be related to only link (1 to 1 relationship)
+    @OneToOne(() => Link, Link => Link.project)
+    link: Link;
+
+    // A project can be related to many industries (1 to 1 relationship)
     @OneToMany(() => Industry, industry => industry.project)
     industries: Industry[];
 

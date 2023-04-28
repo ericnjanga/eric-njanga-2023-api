@@ -15,6 +15,7 @@ import { Technology } from '../models/Technology';
 import { Tool } from '../models/Tool';
 import { Status } from '../models/Status';
 import { Description } from '../models/Description';
+import { Link } from '../models/Link';
 
 
 async function deleteDb() {
@@ -46,6 +47,10 @@ async function deleteDb() {
 
     console.log(`Clearing DESCRIPTION table.`);
     await AppDataSource.getRepository(Description)
+        .delete({});
+
+    console.log(`Clearing LINK table.`);
+    await AppDataSource.getRepository(Link)
         .delete({});
 
     console.log(`Clearing PROJECTS table.`);

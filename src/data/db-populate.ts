@@ -17,6 +17,7 @@ import { Technology } from '../models/Technology';
 import { Tool } from '../models/Tool';
 import { Status } from '../models/Status';
 import { Description } from '../models/Description';
+import { Link } from '../models/Link';
 
 
 async function populateDb() {
@@ -34,6 +35,7 @@ async function populateDb() {
     const toolRepository = AppDataSource.getRepository(Tool);
     const statusRepository = AppDataSource.getRepository(Status);
     const descriptionRepository = AppDataSource.getRepository(Description);
+    const linkRepository = AppDataSource.getRepository(Link);
 
 
     
@@ -95,6 +97,15 @@ async function populateDb() {
             const description = descriptionRepository.create(descriptionData);
             description.project = project; // Link description to project
             await descriptionRepository.save(description);
+        }
+
+        // Save the link (if any)
+        if (projectData.link) {
+            let linkData = projectData.link; 
+            console.log(`Inserting link ${linkData.id}`);
+            const link = linkRepository.create(linkData);
+            link.project = project; // Link link to project
+            await linkRepository.save(link);
         }
     }
 
