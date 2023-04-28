@@ -2,6 +2,7 @@
 import { Column, CreateDateColumn, Entity, OneToMany, OneToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { Category } from "./Category";
 import { Industry } from "./Industry";
+import { Description } from "./Description";
 import { Technology } from "./Technology";
 import { Tool } from "./Tool";
 import { Status } from "./Status";
@@ -34,13 +35,18 @@ export class Project {
     thumbnail           : string;
 
     @Column()
-    shortDescription    : string; //shortDescription
+    shortDescription    : string;
 
     @Column()
     longDescription : string;
 
     // (1 to many relationship) ...
-    // A project can be related to only many industries
+    // A project can be related to only many descriptions
+    @OneToOne(() => Description, Description => Description.project)
+    description: Description;
+
+    // (1 to many relationship) ...
+    // A project can be related to many industries
     @OneToMany(() => Industry, industry => industry.project)
     industries: Industry[];
 

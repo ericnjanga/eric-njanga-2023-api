@@ -5,6 +5,7 @@ import { Category } from './models/Category';
 import { Technology } from './models/Technology';
 import { Tool } from './models/Tool';
 import { Status } from './models/Status';
+import { Description } from './models/Description';
 
 /*
 You need to install reflect-metadata shim:
@@ -37,7 +38,8 @@ export const AppDataSource = new DataSource({
         Category,
         Technology,
         Tool,
-        Status
+        Status,
+        Description
     ],
 
     // [ONLY USE IN DEV MODE]

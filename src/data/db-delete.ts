@@ -14,6 +14,7 @@ import { Industry } from '../models/Industry';
 import { Technology } from '../models/Technology';
 import { Tool } from '../models/Tool';
 import { Status } from '../models/Status';
+import { Description } from '../models/Description';
 
 
 async function deleteDb() {
@@ -27,9 +28,9 @@ async function deleteDb() {
     await AppDataSource.getRepository(Status)
         .delete({});
 
-        console.log(`Clearing CATEGORY table.`);
-        await AppDataSource.getRepository(Category)
-            .delete({});
+    console.log(`Clearing CATEGORY table.`);
+    await AppDataSource.getRepository(Category)
+        .delete({});
 
     console.log(`Clearing INDUSRTRY table.`);
     await AppDataSource.getRepository(Industry)
@@ -41,6 +42,10 @@ async function deleteDb() {
 
     console.log(`Clearing TOOL table.`);
     await AppDataSource.getRepository(Tool)
+        .delete({});
+
+    console.log(`Clearing DESCRIPTION table.`);
+    await AppDataSource.getRepository(Description)
         .delete({});
 
     console.log(`Clearing PROJECTS table.`);

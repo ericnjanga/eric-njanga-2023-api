@@ -2,29 +2,33 @@
 import { Column, CreateDateColumn, Entity, JoinColumn, OneToOne, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 import { Project } from "./Project";
 
-export type statusType = 'draft' | 'published' | 'unpublished' | 'archived';
-
 //Decorator turns the class into a Typeorm model
 @Entity({
-    name: 'STATUSES'
+    name: 'DESCRIPTIONS'
 })
-export class Status {
+export class Description {
 
     @PrimaryGeneratedColumn()
     id          : number;
 
     @Column()
-    seqNo   : number;
+    title       : string;
 
     @Column()
-    title       : statusType;
+    shortDescription         : string;
 
     @Column()
-    shortDescription         : string; //shortDescription
+    context         : string;
+
+    @Column()
+    contribution         : string;
+
+    @Column()
+    constraints         : string;
 
     // (1 to a relationship) ...
-    // An industry can be tied to only 1 project
-    @OneToOne(() => Project, project => project.status)
+    // A description can be tied to only 1 project
+    @OneToOne(() => Project, project => project.description)
     @JoinColumn({
         //name of the column that we want to use 
         //to link this table to the "project" table

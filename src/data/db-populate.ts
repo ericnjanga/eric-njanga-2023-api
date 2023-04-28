@@ -16,6 +16,7 @@ import { Industry } from '../models/Industry';
 import { Technology } from '../models/Technology';
 import { Tool } from '../models/Tool';
 import { Status } from '../models/Status';
+import { Description } from '../models/Description';
 
 
 async function populateDb() {
@@ -32,31 +33,7 @@ async function populateDb() {
     const technologyRepository = AppDataSource.getRepository(Technology);
     const toolRepository = AppDataSource.getRepository(Tool);
     const statusRepository = AppDataSource.getRepository(Status);
-
-
-
-    // for (let statusData of statuses) {
-
-    //     // Save statuses
-    //     console.log(`Inserting status ${statusData.title}`);
-    //     const status = statusRepository.create(statusData);
-    //     await statusRepository.save(status);
-
-    //     // // Save status (if any)
-    //     // if (projectData.status) {
-    //     //     let statusData = projectData.status; 
-    //     //     console.log(`Inserting status ${statusData.title}`);
-    //     //     const status = statusRepository.create(statusData);
-    //     //     status.project = project; // Link status to project
-    //     //     await statusRepository.save(status);
-    //     // }
-    // }
-
-
-
-
-
-
+    const descriptionRepository = AppDataSource.getRepository(Description);
 
 
     
@@ -109,6 +86,15 @@ async function populateDb() {
             const status = statusRepository.create(statusData);
             status.project = project; // Link status to project
             await statusRepository.save(status);
+        }
+
+        // Save the description (if any)
+        if (projectData.description) {
+            let descriptionData = projectData.description; 
+            console.log(`Inserting description ${descriptionData.title}`);
+            const description = descriptionRepository.create(descriptionData);
+            description.project = project; // Link description to project
+            await descriptionRepository.save(description);
         }
     }
 
