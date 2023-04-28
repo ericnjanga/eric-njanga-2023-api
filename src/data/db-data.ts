@@ -73,7 +73,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Food retail',
-            teamCount   : '',
+            teamCount   : 7,
         }
     }, 
 
@@ -136,7 +136,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Communication',
-            teamCount   : '',
+            teamCount   : 2,
         }
     }, 
 
@@ -199,7 +199,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Entrepreneurship',
-            teamCount   : '',
+            teamCount   : 6,
         }
     }, 
 
@@ -282,7 +282,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Sport',
-            teamCount   : '',
+            teamCount   : 2,
         }
     }, 
 
@@ -365,7 +365,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Business',
-            teamCount   : '',
+            teamCount   : 4,
         }
     }, 
 
@@ -429,7 +429,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Advertising',
-            teamCount   : '',
+            teamCount   : 2,
         }
     }, 
 
@@ -492,7 +492,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Non-profit',
-            teamCount   : '',
+            teamCount   : 3,
         }
     },  
 
@@ -555,7 +555,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Entrepreneurship',
-            teamCount   : '',
+            teamCount   : 2,
         }
     },  
 
@@ -626,7 +626,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Business',
-            teamCount   : '',
+            teamCount   : 3,
         }
     },   
 
@@ -704,7 +704,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'eCommerce',
-            teamCount   : '',
+            teamCount   : 2,
         }
     },  
 
@@ -807,7 +807,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Commercial Airlines',
-            teamCount   : '',
+            teamCount   : 3,
         }
     },  
 
@@ -904,7 +904,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Business',
-            teamCount   : '',
+            teamCount   : 4,
         }
     },   
 
@@ -981,7 +981,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'eCommerce',
-            teamCount   : '',
+            teamCount   : 2,
         }
     },  
 
@@ -1052,7 +1052,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'Healthcare',
-            teamCount   : '',
+            teamCount   : 2,
         }
     }, 
 
@@ -1129,7 +1129,7 @@ export const PROJECTS: any = {
             startDate   : '',
             endDate     : '',
             industry    : 'dummy industry',
-            teamCount   : '',
+            teamCount   : 0,
         }
     }, 
 

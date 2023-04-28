@@ -24,7 +24,7 @@ export class Reference {
     industry         : string; // What's the project industry (healthcare, banking, tourism, ...)
 
     @Column()
-    teamCount         : string; // How many people was in the team?
+    teamCount        : number; // How many people was in the team?
 
     // (1 to a relationship) ...
     // A description can be tied to only 1 project
