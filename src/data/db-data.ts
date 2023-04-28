@@ -1029,15 +1029,15 @@ export const PROJECTS: any = {
         ],
         tools: [
             {
-                id: 0,
-                seqNo   : 0,
-                title: 'Visual Studio Code',
-                shortDescription: ''
-            },
-            {
                 id: 3,
                 seqNo   : 3,
                 title: 'Figma Design',
+                shortDescription: ''
+            },
+            {
+                id: 5,
+                seqNo   : 5,
+                title: 'Figma Jam',
                 shortDescription: ''
             }
         ],

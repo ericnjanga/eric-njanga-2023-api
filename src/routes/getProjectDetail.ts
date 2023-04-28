@@ -6,6 +6,7 @@ import { Description } from "../models/Description";
 import { Link } from "../models/Link";
 import { Reference } from "../models/Reference";
 import { Category } from "../models/Category";
+import { Tool } from "../models/Tool";
 
 
 /*
@@ -85,7 +86,7 @@ export async function getProjectDetail(request: Request, response: Response, nex
             })
             .getOne();
 
-        // Get categoriess
+        // Get categories
         const cats = AppDataSource
             .getRepository(Category)
             .createQueryBuilder('category')
@@ -94,19 +95,29 @@ export async function getProjectDetail(request: Request, response: Response, nex
             })
             .getOne();
 
+        // Get tools
+        const tls = AppDataSource
+            .getRepository(Tool)
+            .createQueryBuilder('tool')
+            .where('tool.projectId = :projectId', {
+                projectId: (await project).id
+            })
+            .getMany();
+
         
         
         // The response
-        const [intro, descriptions, links, references, categories] = await Promise.all([
+        const [intro, descriptions, links, references, categories, tools] = await Promise.all([
             project,
             desc,
             link,
             refs,
-            cats
+            cats,
+            tls
         ]);
 
         // Building the HTTP response
-        response.status(200).json({ intro, descriptions, links, categories, references });
+        response.status(200).json({ intro, descriptions, links, categories, references, tools });
     }
 
     catch (error) {
