@@ -4,6 +4,7 @@ import { AppDataSource } from "../data-source";
 import { Project } from "../models/Project";
 import { Description } from "../models/Description";
 import { Link } from "../models/Link";
+import { Reference } from "../models/Reference";
 
 
 /*
@@ -57,7 +58,7 @@ export async function getProjectDetail(request: Request, response: Response, nex
         }
 
         // Get descriptions
-        const description = AppDataSource
+        const desc = AppDataSource
             .getRepository(Description)
             .createQueryBuilder('description')
             .where('description.projectId = :projectId', {
@@ -66,7 +67,7 @@ export async function getProjectDetail(request: Request, response: Response, nex
             .getOne();
 
         // Get links
-        const links = AppDataSource
+        const link = AppDataSource
             .getRepository(Link)
             .createQueryBuilder('link')
             .where('link.projectId = :projectId', {
@@ -74,17 +75,27 @@ export async function getProjectDetail(request: Request, response: Response, nex
             })
             .getOne();
 
+        // Get references
+        const refs = AppDataSource
+            .getRepository(Reference)
+            .createQueryBuilder('reference')
+            .where('reference.projectId = :projectId', {
+                projectId: (await project).id
+            })
+            .getOne();
+
         
         
         // The response
-        const [intro, desc, link] = await Promise.all([
+        const [intro, description, links, references] = await Promise.all([
             project,
-            description,
-            links
+            desc,
+            link,
+            refs
         ]);
 
         // Building the HTTP response
-        response.status(200).json({ intro, desc, link });
+        response.status(200).json({ intro, description, links, references });
     }
 
     catch (error) {

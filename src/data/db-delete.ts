@@ -16,6 +16,7 @@ import { Tool } from '../models/Tool';
 import { Status } from '../models/Status';
 import { Description } from '../models/Description';
 import { Link } from '../models/Link';
+import { Reference } from "../models/Reference";
 
 
 async function deleteDb() {
@@ -51,6 +52,10 @@ async function deleteDb() {
 
     console.log(`Clearing LINK table.`);
     await AppDataSource.getRepository(Link)
+        .delete({});
+
+    console.log(`Clearing REFERENCE table.`);
+    await AppDataSource.getRepository(Reference)
         .delete({});
 
     console.log(`Clearing PROJECTS table.`);

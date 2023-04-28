@@ -4,8 +4,7 @@ export const PROJECTS: any = {
     2: {
         id: 2,
         seqNo   : 0,
-        title: 'Coding a food retail giant\'s online extension', 
-        refName: 'loblaws-marketplace',
+        title: 'Coding a food retail giant\'s online extension',
         pageUrl: 'coding-a-food-retail-giants-online-extension',
         thumbnail: './../../../assets/img/project-2-tmb.png',
         description: {
@@ -68,6 +67,11 @@ export const PROJECTS: any = {
             seqNo: 0,
             title: 'published',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'loblaws-marketplace',
+            startDate   : '',
+            endDate     : '',
         }
     }, 
 
@@ -75,7 +79,6 @@ export const PROJECTS: any = {
         id: 10,
         seqNo   : 0,
         title: 'meroe-global', 
-        refName: 'meroe-global',
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -125,6 +128,11 @@ export const PROJECTS: any = {
             seqNo: 0,
             title: 'published',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'meroe-global',
+            startDate   : '',
+            endDate     : '',
         }
     }, 
 
@@ -132,7 +140,6 @@ export const PROJECTS: any = {
         id: 11,
         seqNo   : 11,
         title: 'ppcb-website', 
-        refName: 'ppcb-website',
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -182,6 +189,11 @@ export const PROJECTS: any = {
             seqNo: 0,
             title: 'published',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'ppcb-website',
+            startDate   : '',
+            endDate     : '',
         }
     }, 
 
@@ -189,7 +201,6 @@ export const PROJECTS: any = {
         id: 12,
         seqNo   : 12,
         title: 'club-des-amoureux-du-basket', 
-        refName: 'club-des-amoureux-du-basket',
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -259,6 +270,11 @@ export const PROJECTS: any = {
             seqNo: 0,
             title: 'published',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'club-des-amoureux-du-basket',
+            startDate   : '',
+            endDate     : '',
         }
     }, 
 
@@ -266,7 +282,6 @@ export const PROJECTS: any = {
         id: 13,
         seqNo   : 13,
         title: 'mkz-technologies', 
-        refName: 'mkz-technologies',
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -336,6 +351,11 @@ export const PROJECTS: any = {
             seqNo: 0,
             title: 'draft',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'mkz-technologies',
+            startDate   : '',
+            endDate     : '',
         }
     }, 
 
@@ -344,7 +364,6 @@ export const PROJECTS: any = {
         id: 14,
         seqNo   : 14,
         title: 'activation-beaute', 
-        refName: 'activation-beaute',
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -394,6 +413,11 @@ export const PROJECTS: any = {
             seqNo: 0,
             title: 'published',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'activation-beaute',
+            startDate   : '',
+            endDate     : '',
         }
     }, 
 
@@ -401,7 +425,6 @@ export const PROJECTS: any = {
         id: 15,
         seqNo   : 15,
         title: 'canadian-congress-diversity', 
-        refName: 'canadian-congress-diversity',
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -451,14 +474,18 @@ export const PROJECTS: any = {
             seqNo: 0,
             title: 'draft',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'canadian-congress-diversity',
+            startDate   : '',
+            endDate     : '',
         }
     },  
 
     16: {
         id: 16,
         seqNo   : 16,
-        title: 'Solopreneur coversion page design', 
-        refName: 'moy-fung-website',
+        title: 'Solopreneur coversion page design',
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -508,6 +535,11 @@ export const PROJECTS: any = {
             seqNo: 0,
             title: 'draft',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'moy-fung-website',
+            startDate   : '',
+            endDate     : '',
         }
     },  
 
@@ -531,7 +563,6 @@ export const PROJECTS: any = {
         id: 22,
         seqNo   : 22,
         title: 'Finafrik UK', 
-        refName: 'finafrik-uk',
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -581,6 +612,11 @@ export const PROJECTS: any = {
             seqNo: 0,
             title: 'draft',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'finafrik-uk--jerry-project',
+            startDate   : '',
+            endDate     : '',
         }
     },   
 
@@ -588,8 +624,7 @@ export const PROJECTS: any = {
     23: {
         id: 23,
         seqNo   : 23,
-        title: 'kt-house-ecommerce-website-design', 
-        refName: 'kt-house-ecommerce-website-design',
+        title: 'kt-house-ecommerce-website-design',
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -653,6 +688,11 @@ export const PROJECTS: any = {
             seqNo: 0,
             title: 'draft',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'kt-house-ecommerce-website-design',
+            startDate   : '',
+            endDate     : '',
         }
     },  
 
@@ -660,7 +700,6 @@ export const PROJECTS: any = {
         id: 25,
         seqNo   : 25,
         title: 'Fixing a nightmarish booking system', 
-        refName: 'tcholli-ui-design',
         pageUrl: '25-fixing-a-nightmarish-booking-system',
         thumbnail: './../../../assets/img/project-25-tmb.png',
         description: {
@@ -750,6 +789,11 @@ export const PROJECTS: any = {
             seqNo: 2,
             title: 'published',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'tcholli-ui-design',
+            startDate   : '',
+            endDate     : '',
         }
     },  
 
@@ -758,7 +802,6 @@ export const PROJECTS: any = {
         id: 27,
         seqNo   : 27,
         title: 'richy-group', 
-        refName: 'richy-group',
         pageUrl: '',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -841,6 +884,11 @@ export const PROJECTS: any = {
             seqNo: 2,
             title: 'draft',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'richy-group',
+            startDate   : '',
+            endDate     : '',
         }
     },   
 
@@ -849,7 +897,6 @@ export const PROJECTS: any = {
         id: 28,
         seqNo   : 28,
         title: 'Connecting the dots of a social business', 
-        refName: 'herve-momo-community-ecommerce',
         pageUrl: '28-connecting-the-dots-of-a-social-business',
         thumbnail: './../../../assets/img/project-28-tmb.png',
         description: {
@@ -912,6 +959,11 @@ export const PROJECTS: any = {
             seqNo: 2,
             title: 'published',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'collaboration-with-herve-momo-community-ecommerce',
+            startDate   : '',
+            endDate     : '',
         }
     },  
 
@@ -919,8 +971,7 @@ export const PROJECTS: any = {
     29: {
         id: 29,
         seqNo   : 29,
-        title: 'Prototyping of an AI-based Healthcare Diagnostic Tool', 
-        refName: 'Herve Djoumbi Hepatitis B (AI project)',
+        title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
         pageUrl: 'prototyping-of-an-ai-based-healthcare-diagnostic-tool',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
@@ -977,6 +1028,11 @@ export const PROJECTS: any = {
             seqNo: 2,
             title: 'published',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'Herve Djoumbi Hepatitis B (AI project)',
+            startDate   : '',
+            endDate     : '',
         }
     }, 
 
@@ -985,7 +1041,6 @@ export const PROJECTS: any = {
         id: 30,
         seqNo   : 30,
         title: 'dummy-post-for-test-delete', 
-        refName: 'dummy-post-for-test-delete',
         pageUrl: '',
         thumbnail: 'dummy-post-for-test-delete',
         description: {
@@ -1048,6 +1103,11 @@ export const PROJECTS: any = {
             seqNo: 2,
             title: 'draft',
             shortDescription: ''
+        },
+        reference: {
+            name        : 'Dummy post',
+            startDate   : '',
+            endDate     : '',
         }
     }, 
 

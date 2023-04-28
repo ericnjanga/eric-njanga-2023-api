@@ -7,6 +7,7 @@ import { Tool } from './models/Tool';
 import { Status } from './models/Status';
 import { Description } from './models/Description';
 import { Link } from './models/Link';
+import { Reference } from "./models/Reference";
 
 /*
 You need to install reflect-metadata shim:
@@ -41,7 +42,8 @@ export const AppDataSource = new DataSource({
         Tool,
         Status,
         Description,
-        Link
+        Link,
+        Reference
     ],
 
     // [ONLY USE IN DEV MODE]

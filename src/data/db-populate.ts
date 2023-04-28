@@ -18,6 +18,7 @@ import { Tool } from '../models/Tool';
 import { Status } from '../models/Status';
 import { Description } from '../models/Description';
 import { Link } from '../models/Link';
+import { Reference } from "../models/Reference";
 
 
 async function populateDb() {
@@ -36,6 +37,7 @@ async function populateDb() {
     const statusRepository = AppDataSource.getRepository(Status);
     const descriptionRepository = AppDataSource.getRepository(Description);
     const linkRepository = AppDataSource.getRepository(Link);
+    const referenceRepository = AppDataSource.getRepository(Reference);
 
 
     
@@ -106,6 +108,15 @@ async function populateDb() {
             const link = linkRepository.create(linkData);
             link.project = project; // Link link to project
             await linkRepository.save(link);
+        }
+
+        // Save the reference (if any)
+        if (projectData.reference) {
+            let referenceData = projectData.reference; 
+            console.log(`Inserting reference ${referenceData.id}`);
+            const reference = referenceRepository.create(referenceData);
+            reference.project = project; // Link reference to project
+            await referenceRepository.save(reference);
         }
     }
 
