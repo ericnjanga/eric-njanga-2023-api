@@ -7,6 +7,7 @@ import { Link } from "../models/Link";
 import { Reference } from "../models/Reference";
 import { Category } from "../models/Category";
 import { Tool } from "../models/Tool";
+import { Image } from "../models/Image";
 
 
 /*
@@ -104,20 +105,33 @@ export async function getProjectDetail(request: Request, response: Response, nex
             })
             .getMany();
 
+        // Get images
+        const img = AppDataSource
+            .getRepository(Image)
+            .createQueryBuilder('image')
+            .where('image.projectId = :projectId', {
+                projectId: (await project).id
+            })
+            .getMany();
+
         
+
+
+
         
         // The response
-        const [intro, descriptions, links, references, categories, tools] = await Promise.all([
+        const [intro, descriptions, links, references, categories, tools, images] = await Promise.all([
             project,
             desc,
             link,
             refs,
             cats,
-            tls
+            tls,
+            img
         ]);
 
         // Building the HTTP response
-        response.status(200).json({ intro, descriptions, links, categories, references, tools });
+        response.status(200).json({ intro, descriptions, links, categories, references, tools, images });
     }
 
     catch (error) {

@@ -44,6 +44,7 @@ export async function getProjects(request: Request, response: Response, next: Ne
         .createQueryBuilder('projects')
         .leftJoinAndSelect('projects.categories', 'p.cat') // with all categories
         .leftJoinAndSelect('projects.reference', 'p.ref') // with all references
+        .leftJoinAndSelect('projects.images', 'p.img') // with all images
         // .leftJoinAndSelect('projects.tools', 'p.tools'); // with all tools
 
 

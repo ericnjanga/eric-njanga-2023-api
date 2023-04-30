@@ -8,6 +8,7 @@ import { Status } from "./Status";
 import { Description } from "./Description";
 import { Link } from "./Link";
 import { Reference } from "./Reference";
+import { Image } from "./Image";
 
 //Decorator turns the class into a Typeorm model
 @Entity({
@@ -61,6 +62,9 @@ export class Project {
  
     @OneToOne(() => Reference, Reference => Reference.project)
     reference: Reference;
+ 
+    @OneToOne(() => Image, Image => Image.project)
+    image: Image;
 
 
     // ...

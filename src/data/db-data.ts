@@ -1,6 +1,6 @@
 
 export const PROJECTS: any = {
-   
+    // 1
     2: {
         id: 2,
         seqNo   : 0,
@@ -74,9 +74,15 @@ export const PROJECTS: any = {
             endDate     : '2020-03',
             industry    : 'Food retail',
             teamCount   : 7,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     }, 
 
+    // 2
     10: {
         id: 10,
         seqNo   : 0,
@@ -137,9 +143,15 @@ export const PROJECTS: any = {
             endDate     : '2020-10',
             industry    : 'Communication',
             teamCount   : 2,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     }, 
 
+    // 3
     11: {
         id: 11,
         seqNo   : 11,
@@ -200,10 +212,15 @@ export const PROJECTS: any = {
             endDate     : '10-2020',
             industry    : 'Entrepreneurship',
             teamCount   : 6,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     }, 
 
-    // 6
+    // 4
     12: {
         id: 12,
         seqNo   : 12,
@@ -264,9 +281,15 @@ export const PROJECTS: any = {
             endDate     : '05-2021',
             industry    : 'Advertising',
             teamCount   : 2,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     }, 
 
+    // 5
     13: {
         id: 13,
         seqNo   : 13,
@@ -347,11 +370,15 @@ export const PROJECTS: any = {
             endDate     : '06-2021',
             industry    : 'Sport',
             teamCount   : 2,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     }, 
 
-
-
+    // 6
     14: {
         id: 14,
         seqNo   : 14,
@@ -412,9 +439,15 @@ export const PROJECTS: any = {
             endDate     : '07-2021',
             industry    : 'Entrepreneurship',
             teamCount   : 2,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     },  
 
+    // 7
     15: {
         id: 15,
         seqNo   : 15,
@@ -495,9 +528,15 @@ export const PROJECTS: any = {
             endDate     : '07-2021',
             industry    : 'Business',
             teamCount   : 4,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     }, 
 
+    // 8
     16: { 
         id: 16,
         seqNo   : 16,
@@ -558,6 +597,11 @@ export const PROJECTS: any = {
             endDate     : '08-2021',
             industry    : 'Non-profit',
             teamCount   : 3,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     },  
 
@@ -629,10 +673,15 @@ export const PROJECTS: any = {
             endDate     : '02-2022',
             industry    : 'Business',
             teamCount   : 3,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     },   
 
-    // 9
+    // 10
     23: {
         id: 23,
         seqNo   : 23,
@@ -707,9 +756,15 @@ export const PROJECTS: any = {
             endDate     : '05-2022',
             industry    : 'eCommerce',
             teamCount   : 2,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     },  
-
+    
+    // 11
     25: {
         id: 25,
         seqNo   : 25,
@@ -810,16 +865,21 @@ export const PROJECTS: any = {
             endDate     : '02-2023',
             industry    : 'Commercial Airlines',
             teamCount   : 3,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     },  
 
-    // 13
+    // 12
     26: {
         id: 26,
         seqNo   : 26,
         title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
         pageUrl: 'prototyping-of-an-ai-based-healthcare-diagnostic-tool',
-        thumbnail: './../../../assets/img/meroe-global.png',
+        thumbnail: './../../../assets/img/project-26-hero.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
             context             : '** context',
@@ -881,10 +941,15 @@ export const PROJECTS: any = {
             endDate     : '04-2023',
             industry    : 'Healthcare',
             teamCount   : 2,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     }, 
 
-    // 12
+    // 13
     27: {
         id: 27,
         seqNo   : 27,
@@ -958,10 +1023,15 @@ export const PROJECTS: any = {
             endDate     : '',
             industry    : 'eCommerce',
             teamCount   : 2,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     },   
 
-    // 11
+    // 14
     28: {
         id: 28,
         seqNo   : 28,
@@ -1055,6 +1125,11 @@ export const PROJECTS: any = {
             endDate     : '',
             industry    : 'Business',
             teamCount   : 4,
+        },
+        image: {
+            thumbnail: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-2-tmb.png',
+            type: 'phone'
         }
     },  
 

@@ -19,6 +19,7 @@ import { Status } from '../models/Status';
 import { Description } from '../models/Description';
 import { Link } from '../models/Link';
 import { Reference } from "../models/Reference";
+import { Image } from "../models/Image";
 
 
 async function populateDb() {
@@ -38,6 +39,7 @@ async function populateDb() {
     const descriptionRepository = AppDataSource.getRepository(Description);
     const linkRepository = AppDataSource.getRepository(Link);
     const referenceRepository = AppDataSource.getRepository(Reference);
+    const imageRepository = AppDataSource.getRepository(Image);
 
 
     
@@ -117,6 +119,15 @@ async function populateDb() {
             const reference = referenceRepository.create(referenceData);
             reference.project = project; // Link reference to project
             await referenceRepository.save(reference);
+        }
+
+        // Save images (if any)
+        if (projectData.image) {
+            let imageData = projectData.image; 
+            console.log(`--------> (8) Inserting image ${imageData.thumbnail}`);
+            const image = imageRepository.create(imageData);
+            image.project = project; // Link image to project
+            await imageRepository.save(image);
         }
     }
 
