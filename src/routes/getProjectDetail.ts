@@ -93,7 +93,7 @@ export async function getProjectDetail(request: Request, response: Response, nex
             .where('category.projectId = :projectId', {
                 projectId: (await project).id
             })
-            .getOne();
+            .getMany();
 
         // Get tools
         const tls = AppDataSource
