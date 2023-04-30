@@ -80,8 +80,8 @@ export const PROJECTS: any = {
     10: {
         id: 10,
         seqNo   : 0,
-        title: 'meroe-global', 
-        pageUrl: '',
+        title: 'Helping to boost the online presence of a niche agency with a landing page', 
+        pageUrl: 'helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing page',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -207,8 +207,8 @@ export const PROJECTS: any = {
     12: {
         id: 12,
         seqNo   : 12,
-        title: 'activation-beaute', 
-        pageUrl: '',
+        title: 'Helping to create an internal pitch for a beauty marketing campaign', 
+        pageUrl: 'Helping-to-create-an-internal-pitch-for-a-beauty-marketing-campaign', 
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -270,8 +270,8 @@ export const PROJECTS: any = {
     13: {
         id: 13,
         seqNo   : 13,
-        title: 'club-des-amoureux-du-basket', 
-        pageUrl: '',
+        title: 'Helping a non-profit basketball club attract donations with a landing page', 
+        pageUrl: 'helping-a-non-profit-basketball-club-attract-donations-with-a-landing-page',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
