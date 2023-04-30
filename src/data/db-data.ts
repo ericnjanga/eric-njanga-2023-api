@@ -355,8 +355,8 @@ export const PROJECTS: any = {
     14: {
         id: 14,
         seqNo   : 14,
-        title: 'Solopreneur coversion page design',
-        pageUrl: '',
+        title: 'Creating a showcase and corversion page for a business coach',
+        pageUrl: 'creating-a-showcase-and-corversion-page-for-a-business-coach',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -418,8 +418,8 @@ export const PROJECTS: any = {
     15: {
         id: 15,
         seqNo   : 15,
-        title: 'mkz-technologies', 
-        pageUrl: '',
+        title: 'Helping an african business consulting startup showcse their service', 
+        pageUrl: 'helping-an-african-business-consulting-startup-showcse-their-service',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -501,8 +501,8 @@ export const PROJECTS: any = {
     16: { 
         id: 16,
         seqNo   : 16,
-        title: 'canadian-congress-diversity', 
-        pageUrl: '',
+        title: 'Helping a non-profit organisation attract new donnors with a custom landing page', 
+        pageUrl: 'helping-a-non-profit-organisation-attract-new-donnors-with-a-custom-landing-page',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -572,8 +572,8 @@ export const PROJECTS: any = {
     22: {
         id: 22,
         seqNo   : 22,
-        title: 'Finafrik UK', 
-        pageUrl: '',
+        title: 'Coding showcase website for a british consulting startup', 
+        pageUrl: 'coding-showcase-website-for-a-british-consulting-startup',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -636,8 +636,8 @@ export const PROJECTS: any = {
     23: {
         id: 23,
         seqNo   : 23,
-        title: 'kt-house-ecommerce-website-design',
-        pageUrl: '',
+        title: 'Creating a proof of concept for an african social ecommerce startup',
+        pageUrl: 'creating-a-proof-of-concept-for-an-african-social-ecommerce-startup',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -965,8 +965,8 @@ export const PROJECTS: any = {
     28: {
         id: 28,
         seqNo   : 28,
-        title: 'richy-group', 
-        pageUrl: '',
+        title: 'Helping to showcase a multi-faced business with a showcase website', 
+        pageUrl: 'helping-to-showcase-a-multi-faced-business-with-a-showcase-website',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
