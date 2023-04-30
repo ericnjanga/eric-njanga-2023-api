@@ -45,7 +45,7 @@ async function populateDb() {
     
     for (let projectData of projects) {
         // Save projects
-        console.log(`Inserting project ${projectData.title}`);
+        console.log(`Inserting project ${projectData?.description?.title}`);
         const project = projectRepository.create(projectData);
         await projectRepository.save(project);
 

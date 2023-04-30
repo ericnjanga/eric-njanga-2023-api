@@ -4,11 +4,9 @@ export const PROJECTS: any = {
     2: {
         id: 2,
         seqNo   : 0,
-        title: 'Coding a food retail giant\'s online extension',
         pageUrl: 'coding-a-food-retail-giants-online-extension',
-        thumbnail: './../../../assets/img/project-2-tmb.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Coding a food retail giant\'s online extension',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -21,7 +19,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'https://www.loblaws.ca/marketplace',
         },
-        shortDescription: 'Writing code, creating markup and styles for the UI of a large scale React application.',
         industries: [
             {
                 id: 0,
@@ -86,11 +83,9 @@ export const PROJECTS: any = {
     10: {
         id: 10,
         seqNo   : 0,
-        title: 'Helping to boost the online presence of a niche agency with a landing page', 
         pageUrl: 'helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing page',
-        thumbnail: './../../../assets/img/meroe-global.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Helping to boost the online presence of a niche agency with a landing page', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -103,7 +98,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
                 id: 1,
@@ -155,11 +149,9 @@ export const PROJECTS: any = {
     11: {
         id: 11,
         seqNo   : 11,
-        title: 'Helping a coaching group showcase their service with a website', 
         pageUrl: 'helping-a-coaching-group-showcase-their-service-with-a-website',
-        thumbnail: './../../../assets/img/meroe-global.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Helping a coaching group showcase their service with a website', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -172,7 +164,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
                 id: 1,
@@ -224,11 +215,9 @@ export const PROJECTS: any = {
     12: {
         id: 12,
         seqNo   : 12,
-        title: 'Prototyping a conversion funnel for a beauty marketing campaign', 
         pageUrl: 'prototyping-a-conversion-funnel-for-a-beauty-marketing-campaign', 
-        thumbnail: './../../../assets/img/meroe-global.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Prototyping a conversion funnel for a beauty marketing campaign', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -241,7 +230,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
                 id: 1,
@@ -293,11 +281,9 @@ export const PROJECTS: any = {
     13: {
         id: 13,
         seqNo   : 13,
-        title: 'Helping a non-profit basketball club attract donations with a landing page', 
         pageUrl: 'helping-a-non-profit-basketball-club-attract-donations-with-a-landing-page',
-        thumbnail: './../../../assets/img/meroe-global.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Helping a non-profit basketball club attract donations with a landing page', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -310,7 +296,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
                 id: 0,
@@ -382,11 +367,9 @@ export const PROJECTS: any = {
     14: {
         id: 14,
         seqNo   : 14,
-        title: 'Creating a showcase and corversion page for a business coach',
         pageUrl: 'creating-a-showcase-and-corversion-page-for-a-business-coach',
-        thumbnail: './../../../assets/img/meroe-global.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Creating a showcase and corversion page for a business coach',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -399,7 +382,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
                 id: 1,
@@ -451,11 +433,9 @@ export const PROJECTS: any = {
     15: {
         id: 15,
         seqNo   : 15,
-        title: 'Helping an african business consulting startup showcse their service', 
         pageUrl: 'helping-an-african-business-consulting-startup-showcse-their-service',
-        thumbnail: './../../../assets/img/meroe-global.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Helping an african business consulting startup showcse their service', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -468,7 +448,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
                 id: 0,
@@ -540,11 +519,9 @@ export const PROJECTS: any = {
     16: { 
         id: 16,
         seqNo   : 16,
-        title: 'Helping a non-profit organisation attract new donnors with a custom landing page', 
         pageUrl: 'helping-a-non-profit-organisation-attract-new-donnors-with-a-custom-landing-page',
-        thumbnail: './../../../assets/img/meroe-global.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Helping a non-profit organisation attract new donnors with a custom landing page', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -557,7 +534,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
                 id: 1,
@@ -616,11 +592,9 @@ export const PROJECTS: any = {
     22: {
         id: 22,
         seqNo   : 22,
-        title: 'Coding showcase website for a british consulting startup', 
         pageUrl: 'coding-showcase-website-for-a-british-consulting-startup',
-        thumbnail: './../../../assets/img/meroe-global.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Coding showcase website for a british consulting startup', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -633,7 +607,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Coding of a WordPress website whose template was provided by a third-party.',
         industries: [
             {
                 id: 0,
@@ -685,11 +658,9 @@ export const PROJECTS: any = {
     23: {
         id: 23,
         seqNo   : 23,
-        title: 'Creating a proof of concept for an african social ecommerce startup',
         pageUrl: 'creating-a-proof-of-concept-for-an-african-social-ecommerce-startup',
-        thumbnail: './../../../assets/img/meroe-global.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Creating a proof of concept for an african social ecommerce startup',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -702,7 +673,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
                 id: 1,
@@ -768,11 +738,9 @@ export const PROJECTS: any = {
     25: {
         id: 25,
         seqNo   : 25,
-        title: 'Fixing a nightmarish booking system', 
         pageUrl: '25-fixing-a-nightmarish-booking-system',
-        thumbnail: './../../../assets/img/project-25-tmb.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Fixing a nightmarish booking system', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -785,7 +753,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Creating wireframes, protoypes, testing designs with users, and coding the UI in Angular.',
         industries: [
             {
                 id: 0,
@@ -877,11 +844,9 @@ export const PROJECTS: any = {
     26: {
         id: 26,
         seqNo   : 26,
-        title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
         pageUrl: 'prototyping-of-an-ai-based-healthcare-diagnostic-tool',
-        thumbnail: './../../../assets/img/project-26-hero.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -894,7 +859,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
                 id: 1,
@@ -953,11 +917,9 @@ export const PROJECTS: any = {
     27: {
         id: 27,
         seqNo   : 27,
-        title: 'Connecting the dots of a social business', 
         pageUrl: 'connecting-the-dots-of-a-social-business',
-        thumbnail: './../../../assets/img/project-28-tmb.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Connecting the dots of a social business', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -970,7 +932,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Creating wireframes that illustrate my understanding of an African-canadian social business.',
         industries: [
             {
                 id: 1,
@@ -1035,11 +996,9 @@ export const PROJECTS: any = {
     28: {
         id: 28,
         seqNo   : 28,
-        title: 'Helping to showcase a multi-faced business with a showcase website', 
         pageUrl: 'helping-to-showcase-a-multi-faced-business-with-a-showcase-website',
-        thumbnail: './../../../assets/img/meroe-global.png',
         description: {
-            title               : '** Coding a food retail giant\'s online extension',
+            title: 'Helping to showcase a multi-faced business with a showcase website', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
@@ -1052,7 +1011,6 @@ export const PROJECTS: any = {
             presentation    : 'presentation...',
             live            : 'live...',
         },
-        shortDescription: 'Design of a corporate website for a French communication agency.',
         industries: [
             {
                 id: 0,

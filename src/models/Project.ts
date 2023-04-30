@@ -23,16 +23,7 @@ export class Project {
     seqNo   : number;
 
     @Column()
-    title   : string; 
-
-    @Column()
     pageUrl     : string;
-
-    @Column()
-    thumbnail           : string;
-
-    @Column()
-    shortDescription    : string;
 
     // ...
     // A project can be related to many of the following
@@ -47,7 +38,6 @@ export class Project {
  
     @OneToMany(() => Tool, Tool => Tool.project)
     tools: Tool[];
-
 
     // ...
     // A project can be related to only 1 on the following
