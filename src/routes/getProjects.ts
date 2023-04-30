@@ -42,13 +42,14 @@ export async function getProjects(request: Request, response: Response, next: Ne
         let projects = AppDataSource
         .getRepository(Project)
         .createQueryBuilder('projects')
-        .leftJoinAndSelect('projects.description', 'p.des') // with all descriptions
+        .leftJoinAndSelect('projects.description', 'P_DES') // with all descriptions
         .leftJoinAndSelect('projects.categories', 'p.cat') // with all categories
         .leftJoinAndSelect('projects.reference', 'p.ref') // with all references
         .leftJoinAndSelect('projects.image', 'p.img') // with all images
-        // .leftJoinAndSelect('projects.tools', 'p.tools'); // with all tools
+        .leftJoinAndSelect('projects.tools', 'p.tools'); // with all tools
+        
 
-
+       
 
         // Filter by "status" only if the "status" is provided and of type "status"
         if (!isStatusType(status)) {
@@ -66,10 +67,15 @@ export async function getProjects(request: Request, response: Response, next: Ne
             projects = projects.innerJoinAndSelect('projects.industries', 'p.ind', 'p.ind.refName = :cTitle', { cTitle: industry });
         }
 
+
         // Order by the most recent and add the pagination
         projects = projects.orderBy('projects.seqNo', 'DESC')
                             .skip(pageNumber * pageSize) // Position from where to start taking results
                             .take(pageSize);
+
+
+        
+        
         
         // The response
         const [payload, total] = await Promise.all([
