@@ -143,8 +143,8 @@ export const PROJECTS: any = {
     11: {
         id: 11,
         seqNo   : 11,
-        title: 'ppcb-website', 
-        pageUrl: '',
+        title: 'Helping a coaching group showcase their service with a website', 
+        pageUrl: 'helping-a-coaching-group-showcase-their-service-with-a-website',
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
@@ -207,8 +207,8 @@ export const PROJECTS: any = {
     12: {
         id: 12,
         seqNo   : 12,
-        title: 'Helping to create an internal pitch for a beauty marketing campaign', 
-        pageUrl: 'Helping-to-create-an-internal-pitch-for-a-beauty-marketing-campaign', 
+        title: 'Prototyping a conversion funnel for a beauty marketing campaign', 
+        pageUrl: 'prototyping-a-conversion-funnel-for-a-beauty-marketing-campaign', 
         thumbnail: './../../../assets/img/meroe-global.png',
         description: {
             title               : '** Coding a food retail giant\'s online extension',
