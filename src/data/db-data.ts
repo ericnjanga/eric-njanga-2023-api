@@ -73,8 +73,8 @@ export const PROJECTS: any = {
             teamCount   : 7,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     }, 
@@ -139,8 +139,8 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     }, 
@@ -205,8 +205,8 @@ export const PROJECTS: any = {
             teamCount   : 6,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     }, 
@@ -271,8 +271,8 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     }, 
@@ -357,8 +357,8 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     }, 
@@ -423,8 +423,8 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     },  
@@ -509,8 +509,8 @@ export const PROJECTS: any = {
             teamCount   : 4,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     }, 
@@ -575,8 +575,8 @@ export const PROJECTS: any = {
             teamCount   : 3,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     },  
@@ -648,8 +648,8 @@ export const PROJECTS: any = {
             teamCount   : 3,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     },   
@@ -728,8 +728,8 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     },  
@@ -834,8 +834,8 @@ export const PROJECTS: any = {
             teamCount   : 3,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     },  
@@ -907,8 +907,8 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     }, 
@@ -986,8 +986,8 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     },   
@@ -1085,8 +1085,8 @@ export const PROJECTS: any = {
             teamCount   : 4,
         },
         image: {
-            thumbnail: './../../../assets/img/project-2-tmb.png',
             hero: './../../../assets/img/project-2-tmb.png',
+            body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
         }
     },  
@@ -1144,7 +1144,7 @@ export const PROJECTS: any = {
 
         // {  
     //     shortDescription: 'Coding of a WordPress website whose template was provided by a third-party.',
-    //     thumbnail: './../../../assets/img/finafrik-uk.png',
+    //     hero: './../../../assets/img/finafrik-uk.png',
     //     category: CATEGORY_DATABASE[0],
     //     subCategory: CATEGORY_DATABASE[3],
     //     status: 'published',
@@ -1159,7 +1159,7 @@ export const PROJECTS: any = {
     //     name: 'george-floyd-memorial-website', 
     //     title: 'george-floyd-memorial-website', 
     //     shortDescription: '...',
-    //     thumbnail: './../../../assets/img/finafrik-uk.png',
+    //     hero: './../../../assets/img/finafrik-uk.png',
     
     //     category: CATEGORY_DATABASE[0],
     //     subCategory: CATEGORY_DATABASE[3],
@@ -1174,7 +1174,7 @@ export const PROJECTS: any = {
     //     name: 'phica-website', 
     //     title: 'phica-website', 
     //     shortDescription: '...',
-    //     thumbnail: './../../../assets/img/finafrik-uk.png',
+    //     hero: './../../../assets/img/finafrik-uk.png',
     
     //     category: CATEGORY_DATABASE[0],
     //     subCategory: CATEGORY_DATABASE[3],
@@ -1185,7 +1185,7 @@ export const PROJECTS: any = {
     //     name: 'boulevard-des-philosophes', 
     //     title: 'boulevard-des-philosophes', 
     //     shortDescription: '...',
-    //     thumbnail: './../../../assets/img/finafrik-uk.png',
+    //     hero: './../../../assets/img/finafrik-uk.png',
     
     //     category: CATEGORY_DATABASE[0],
     //     subCategory: CATEGORY_DATABASE[3],
@@ -1197,7 +1197,7 @@ export const PROJECTS: any = {
     //     name: 'bains-33', 
     //     title: 'Real-estalte conversion page design', 
     //     shortDescription: 'Design of landing page to attract and covert corporate rental offices ...',
-    //     thumbnail: './../../../assets/img/3.png',
+    //     hero: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
@@ -1208,7 +1208,7 @@ export const PROJECTS: any = {
     //     name: 'comoros-government-website-proposal', 
     //     title: 'Comoros Government website', 
     //     shortDescription: "Landing page design proposal for the Government of Comoros new web portal.",
-    //     thumbnail: './../../../assets/img/3.png',
+    //     hero: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
@@ -1219,7 +1219,7 @@ export const PROJECTS: any = {
     //     name: 'zoabiss-chicks-website', 
     //     title: 'Conversion landing page design', 
     //     shortDescription: 'Design of a landing page of an African chicken broiler business.',
-    //     thumbnail: './../../../assets/img/3.png',
+    //     hero: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
@@ -1230,7 +1230,7 @@ export const PROJECTS: any = {
     //     name: 'scec-website', 
     //     title: 'Corporate landing page design', 
     //     shortDescription: 'SCEC company website - Design of a corporate landing page for an African micro bank',
-    //     thumbnail: './../../../assets/img/3.png',
+    //     hero: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
@@ -1241,7 +1241,7 @@ export const PROJECTS: any = {
     //     name: 'smobilpay-website', 
     //     title: 'Corporate website design', 
     //     shortDescription: '...',
-    //     thumbnail: './../../../assets/img/3.png',
+    //     hero: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],
@@ -1252,7 +1252,7 @@ export const PROJECTS: any = {
     //     name: 'smobilpay-payment-process-portal', 
     //     title: 'Smobilpay payment process', 
     //     shortDescription: '...',
-    //     thumbnail: './../../../assets/img/3.png',
+    //     hero: './../../../assets/img/3.png',
     
     //     category: CATEGORY_DATABASE[1],
     //     subCategory: CATEGORY_DATABASE[2],

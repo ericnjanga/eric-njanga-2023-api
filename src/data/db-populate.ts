@@ -124,7 +124,7 @@ async function populateDb() {
         // Save images (if any)
         if (projectData.image) {
             let imageData = projectData.image; 
-            console.log(`--------> (8) Inserting image ${imageData.thumbnail}`);
+            console.log(`--------> (8) Inserting image ${imageData.hero}`);
             const image = imageRepository.create(imageData);
             image.project = project; // Link image to project
             await imageRepository.save(image);

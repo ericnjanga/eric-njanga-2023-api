@@ -14,10 +14,10 @@ export class Image {
     id          : number;
 
     @Column()
-    thumbnail   : string;
+    hero   : string;
 
     @Column()
-    hero      : string;
+    body      : string;
 
     @Column()
     type      : imageType;
