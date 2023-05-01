@@ -75,7 +75,7 @@ export const PROJECTS: any = {
         images: {
             hero: './../../../assets/img/project-2-hero.png',
             body: './../../../assets/img/project-2-body.png',
-            type: 'phone'
+            type: 'laptop'
         }
     }, 
 
@@ -139,9 +139,9 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
-            type: 'phone'
+            hero: './../../../assets/img/project-10-hero.png',
+            body: './../../../assets/img/project-10-body.png',
+            type: 'laptop'
         }
     }, 
 
@@ -205,9 +205,9 @@ export const PROJECTS: any = {
             teamCount   : 6,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
-            type: 'phone'
+            hero: './../../../assets/img/project-11-hero.png',
+            body: './../../../assets/img/project-11-body.png',
+            type: 'laptop'
         }
     }, 
 
@@ -271,8 +271,8 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-12-hero.png',
+            body: './../../../assets/img/project-12-body.png',
             type: 'phone'
         }
     }, 
@@ -357,9 +357,9 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
-            type: 'phone'
+            hero: './../../../assets/img/project-13-hero.png',
+            body: './../../../assets/img/project-13-body.png',
+            type: 'laptop'
         }
     }, 
 
@@ -423,9 +423,9 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
-            type: 'phone'
+            hero: './../../../assets/img/project-14-hero.png',
+            body: './../../../assets/img/project-14-body.png',
+            type: 'laptop'
         }
     },  
 
@@ -509,9 +509,9 @@ export const PROJECTS: any = {
             teamCount   : 4,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
-            type: 'phone'
+            hero: './../../../assets/img/project-15-hero.png',
+            body: './../../../assets/img/project-15-body.png',
+            type: 'laptop'
         }
     }, 
 
@@ -575,9 +575,9 @@ export const PROJECTS: any = {
             teamCount   : 3,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
-            type: 'phone'
+            hero: './../../../assets/img/project-16-hero.png',
+            body: './../../../assets/img/project-16-body.png',
+            type: 'laptop'
         }
     },  
 
@@ -648,9 +648,9 @@ export const PROJECTS: any = {
             teamCount   : 3,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
-            type: 'phone'
+            hero: './../../../assets/img/project-22-hero.png',
+            body: './../../../assets/img/project-22-body.png',
+            type: 'laptop'
         }
     },   
 
@@ -728,9 +728,9 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
-            type: 'phone'
+            hero: './../../../assets/img/project-23-hero.png',
+            body: './../../../assets/img/project-23-body.png',
+            type: 'laptop'
         }
     },  
     
@@ -834,12 +834,12 @@ export const PROJECTS: any = {
             teamCount   : 3,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-25-hero.png',
+            body: './../../../assets/img/project-25-body.png',
             type: 'phone'
         }
     },  
-
+    
     // 12
     26: {
         id: 26,
@@ -986,8 +986,8 @@ export const PROJECTS: any = {
             teamCount   : 2,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
+            hero: './../../../assets/img/project-27-hero.png',
+            body: './../../../assets/img/project-27-body.png',
             type: 'phone'
         }
     },   
@@ -1085,9 +1085,9 @@ export const PROJECTS: any = {
             teamCount   : 4,
         },
         images: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
-            type: 'phone'
+            hero: './../../../assets/img/project-28-hero.png',
+            body: './../../../assets/img/project-28-body.png',
+            type: 'laptop'
         }
     },  
 
