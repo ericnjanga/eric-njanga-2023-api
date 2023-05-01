@@ -11,11 +11,18 @@ import { Project } from "../models/Project";
 
 /**
  * 
- * TODO: Refactor this function whenever possible 
+ * TODO: 
+ * 1) Refactor this function to only return the following properties per poroject:
+ * --------------
+ * - categories(title, refName) -> many()
+ * - reference.startDate
+ * - description.title
+ * - images.hero
+ * - link.pageUrl
  * 
- * 
- * 
- * Merge this function with "findPublishedProjectsByIndustry"
+ * 2) Keep that filter results by:
+ * - status
+ * - indistry
  */
 export async function getProjects(request: Request, response: Response, next: NextFunction) {
 
