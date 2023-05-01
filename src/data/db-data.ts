@@ -909,7 +909,7 @@ export const PROJECTS: any = {
         images: {
             hero: './../../../assets/img/project-26-hero.png',
             body: './../../../assets/img/project-26-body.png',
-            type: 'phone'
+            type: 'laptop'
         }
     }, 
 
