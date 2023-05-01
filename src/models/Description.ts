@@ -25,7 +25,7 @@ export class Description {
 
     // (1 to a relationship) ...
     // A description can be tied to only 1 project
-    @OneToOne(() => Project, project => project.description)
+    @OneToOne(() => Project, project => project.descriptions)
     @JoinColumn({
         //name of the column that we want to use 
         //to link this table to the "project" table

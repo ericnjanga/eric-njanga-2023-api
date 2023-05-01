@@ -52,10 +52,10 @@ export async function getProjects(request: Request, response: Response, next: Ne
         let projects = AppDataSource
         .getRepository(Project)
         .createQueryBuilder('projects')
-        .leftJoinAndSelect('projects.description', 'descriptions')  // with all descriptions
+        .leftJoinAndSelect('projects.descriptions', 'descriptions')  // with all descriptions
         .leftJoinAndSelect('projects.categories', 'categories')     // with all categories
-        .leftJoinAndSelect('projects.reference', 'references')      // with all references
-        .leftJoinAndSelect('projects.image', 'images')              // with all images
+        .leftJoinAndSelect('projects.references', 'references')      // with all references
+        .leftJoinAndSelect('projects.images', 'images')              // with all images
         .leftJoinAndSelect('projects.tools', 'tools');              // with all tools
         
 

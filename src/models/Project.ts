@@ -45,16 +45,16 @@ export class Project {
     status: Status;
 
     @OneToOne(() => Description, Description => Description.project)
-    description: Description;
+    descriptions: Description;
 
     @OneToOne(() => Link, Link => Link.project)
-    link: Link;
+    links: Link;
  
     @OneToOne(() => Reference, Reference => Reference.project)
-    reference: Reference;
+    references: Reference;
  
     @OneToOne(() => Image, Image => Image.project)
-    image: Image;
+    images: Image;
 
 
     // ...

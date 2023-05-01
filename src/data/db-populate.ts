@@ -45,7 +45,7 @@ async function populateDb() {
     
     for (let projectData of projects) {
         // Save projects
-        console.log(`Inserting project ${projectData?.description?.title}`);
+        console.log(`Inserting project ${projectData?.descriptions?.title}`);
         const project = projectRepository.create(projectData);
         await projectRepository.save(project);
 
@@ -95,8 +95,8 @@ async function populateDb() {
         }
 
         // Save the description (if any)
-        if (projectData.description) {
-            let descriptionData = projectData.description; 
+        if (projectData.descriptions) {
+            let descriptionData = projectData.descriptions; 
             console.log(`--------> (5) Inserting description ${descriptionData.title}`);
             const description = descriptionRepository.create(descriptionData);
             description.project = project; // Link description to project
@@ -104,8 +104,8 @@ async function populateDb() {
         }
 
         // Save the link (if any)
-        if (projectData.link) {
-            let linkData = projectData.link; 
+        if (projectData.links) {
+            let linkData = projectData.links; 
             console.log(`--------> (6) Inserting link ${linkData.id}`);
             const link = linkRepository.create(linkData);
             link.project = project; // Link link to project
@@ -113,8 +113,8 @@ async function populateDb() {
         }
 
         // Save the reference (if any)
-        if (projectData.reference) {
-            let referenceData = projectData.reference; 
+        if (projectData.references) {
+            let referenceData = projectData.references; 
             console.log(`--------> (7) Inserting reference ${referenceData.name}`);
             const reference = referenceRepository.create(referenceData);
             reference.project = project; // Link reference to project
@@ -122,8 +122,8 @@ async function populateDb() {
         }
 
         // Save images (if any)
-        if (projectData.image) {
-            let imageData = projectData.image; 
+        if (projectData.images) {
+            let imageData = projectData.images; 
             console.log(`--------> (8) Inserting image ${imageData.hero}`);
             const image = imageRepository.create(imageData);
             image.project = project; // Link image to project

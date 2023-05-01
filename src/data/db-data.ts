@@ -5,13 +5,13 @@ export const PROJECTS: any = {
         id: 2,
         seqNo   : 0,
         pageUrl: 'coding-a-food-retail-giants-online-extension',
-        description: {
+        descriptions: {
             title: 'Coding a food retail giant\'s online extension',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -65,16 +65,16 @@ export const PROJECTS: any = {
             title: 'published',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'loblaws-marketplace',
             startDate   : '2019-02',
             endDate     : '2020-03',
             industry    : 'Food retail',
             teamCount   : 7,
         },
-        image: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
+        images: {
+            hero: './../../../assets/img/project-2-hero.png',
+            body: './../../../assets/img/project-2-body.png',
             type: 'phone'
         }
     }, 
@@ -84,13 +84,13 @@ export const PROJECTS: any = {
         id: 10,
         seqNo   : 0,
         pageUrl: 'helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing page',
-        description: {
+        descriptions: {
             title: 'Helping to boost the online presence of a niche agency with a landing page', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -131,14 +131,14 @@ export const PROJECTS: any = {
             title: 'published',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'meroe-global',
             startDate   : '2020-08',
             endDate     : '2020-10',
             industry    : 'Communication',
             teamCount   : 2,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -150,13 +150,13 @@ export const PROJECTS: any = {
         id: 11,
         seqNo   : 11,
         pageUrl: 'helping-a-coaching-group-showcase-their-service-with-a-website',
-        description: {
+        descriptions: {
             title: 'Helping a coaching group showcase their service with a website', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -197,14 +197,14 @@ export const PROJECTS: any = {
             title: 'published',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'ppcb-website',
             startDate   : '07-2020',
             endDate     : '10-2020',
             industry    : 'Entrepreneurship',
             teamCount   : 6,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -216,13 +216,13 @@ export const PROJECTS: any = {
         id: 12,
         seqNo   : 12,
         pageUrl: 'prototyping-a-conversion-funnel-for-a-beauty-marketing-campaign', 
-        description: {
+        descriptions: {
             title: 'Prototyping a conversion funnel for a beauty marketing campaign', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -263,14 +263,14 @@ export const PROJECTS: any = {
             title: 'published',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'activation-beaute',
             startDate   : '04-2021',
             endDate     : '05-2021',
             industry    : 'Advertising',
             teamCount   : 2,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -282,13 +282,13 @@ export const PROJECTS: any = {
         id: 13,
         seqNo   : 13,
         pageUrl: 'helping-a-non-profit-basketball-club-attract-donations-with-a-landing-page',
-        description: {
+        descriptions: {
             title: 'Helping a non-profit basketball club attract donations with a landing page', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -349,14 +349,14 @@ export const PROJECTS: any = {
             title: 'published',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'BBD-players---club-des-amoureux-du-basket---eric-tchuisseu',
             startDate   : '05-2021',
             endDate     : '06-2021',
             industry    : 'Sport',
             teamCount   : 2,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -368,13 +368,13 @@ export const PROJECTS: any = {
         id: 14,
         seqNo   : 14,
         pageUrl: 'creating-a-showcase-and-corversion-page-for-a-business-coach',
-        description: {
+        descriptions: {
             title: 'Creating a showcase and corversion page for a business coach',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -415,14 +415,14 @@ export const PROJECTS: any = {
             title: 'draft',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'moy-fung-website',
             startDate   : '06-2021',
             endDate     : '07-2021',
             industry    : 'Entrepreneurship',
             teamCount   : 2,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -434,13 +434,13 @@ export const PROJECTS: any = {
         id: 15,
         seqNo   : 15,
         pageUrl: 'helping-an-african-business-consulting-startup-showcse-their-service',
-        description: {
+        descriptions: {
             title: 'Helping an african business consulting startup showcse their service', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -501,14 +501,14 @@ export const PROJECTS: any = {
             title: 'draft',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'mkz-technologies',
             startDate   : '06-2021',
             endDate     : '07-2021',
             industry    : 'Business',
             teamCount   : 4,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -520,13 +520,13 @@ export const PROJECTS: any = {
         id: 16,
         seqNo   : 16,
         pageUrl: 'helping-a-non-profit-organisation-attract-new-donnors-with-a-custom-landing-page',
-        description: {
+        descriptions: {
             title: 'Helping a non-profit organisation attract new donnors with a custom landing page', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -567,14 +567,14 @@ export const PROJECTS: any = {
             title: 'draft',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'canadian-congress-diversity',
             startDate   : '07-2021',
             endDate     : '08-2021',
             industry    : 'Non-profit',
             teamCount   : 3,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -593,13 +593,13 @@ export const PROJECTS: any = {
         id: 22,
         seqNo   : 22,
         pageUrl: 'coding-showcase-website-for-a-british-consulting-startup',
-        description: {
+        descriptions: {
             title: 'Coding showcase website for a british consulting startup', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -640,14 +640,14 @@ export const PROJECTS: any = {
             title: 'draft',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'finafrik-uk--jerry-project',
             startDate   : '01-2022',
             endDate     : '02-2022',
             industry    : 'Business',
             teamCount   : 3,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -659,13 +659,13 @@ export const PROJECTS: any = {
         id: 23,
         seqNo   : 23,
         pageUrl: 'creating-a-proof-of-concept-for-an-african-social-ecommerce-startup',
-        description: {
+        descriptions: {
             title: 'Creating a proof of concept for an african social ecommerce startup',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -720,14 +720,14 @@ export const PROJECTS: any = {
             title: 'draft',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'kt-house-ecommerce-website-design',
             startDate   : '03-2022',
             endDate     : '05-2022',
             industry    : 'eCommerce',
             teamCount   : 2,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -739,13 +739,13 @@ export const PROJECTS: any = {
         id: 25,
         seqNo   : 25,
         pageUrl: '25-fixing-a-nightmarish-booking-system',
-        description: {
+        descriptions: {
             title: 'Fixing a nightmarish booking system', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -826,14 +826,14 @@ export const PROJECTS: any = {
             title: 'published',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'tcholli-ui-design',
             startDate   : '11-2022',
             endDate     : '02-2023',
             industry    : 'Commercial Airlines',
             teamCount   : 3,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -845,13 +845,13 @@ export const PROJECTS: any = {
         id: 26,
         seqNo   : 26,
         pageUrl: 'prototyping-of-an-ai-based-healthcare-diagnostic-tool',
-        description: {
+        descriptions: {
             title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -899,16 +899,16 @@ export const PROJECTS: any = {
             title: 'published',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'Herve Djoumbi Hepatitis B (AI project)',
             startDate   : '03-2023',
             endDate     : '04-2023',
             industry    : 'Healthcare',
             teamCount   : 2,
         },
-        image: {
-            hero: './../../../assets/img/project-2-tmb.png',
-            body: './../../../assets/img/project-2-tmb.png',
+        images: {
+            hero: './../../../assets/img/project-26-hero.png',
+            body: './../../../assets/img/project-26-body.png',
             type: 'phone'
         }
     }, 
@@ -918,13 +918,13 @@ export const PROJECTS: any = {
         id: 27,
         seqNo   : 27,
         pageUrl: 'connecting-the-dots-of-a-social-business',
-        description: {
+        descriptions: {
             title: 'Connecting the dots of a social business', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -978,14 +978,14 @@ export const PROJECTS: any = {
             title: 'draft',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'collaboration-with-herve-momo-community-ecommerce',
             startDate   : '04-2023',
             endDate     : '',
             industry    : 'eCommerce',
             teamCount   : 2,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
@@ -997,13 +997,13 @@ export const PROJECTS: any = {
         id: 28,
         seqNo   : 28,
         pageUrl: 'helping-to-showcase-a-multi-faced-business-with-a-showcase-website',
-        description: {
+        descriptions: {
             title: 'Helping to showcase a multi-faced business with a showcase website', 
             context             : '** context',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
-        link        : {
+        links: {
             git             : 'git...',
             figma           : 'figma...',
             figmaJam        : 'figmaJam...',
@@ -1077,14 +1077,14 @@ export const PROJECTS: any = {
             title: 'draft',
             shortDescription: ''
         },
-        reference: {
+        references: {
             name        : 'richy-group',
             startDate   : '',
             endDate     : '',
             industry    : 'Business',
             teamCount   : 4,
         },
-        image: {
+        images: {
             hero: './../../../assets/img/project-2-tmb.png',
             body: './../../../assets/img/project-2-tmb.png',
             type: 'phone'
