@@ -120,7 +120,7 @@ export async function getProjectDetail(request: Request, response: Response, nex
 
         
         // The response
-        const [intro, descriptions, links, references, categories, tools, images] = await Promise.all([
+        const [intro, description, links, references, categories, tools, images] = await Promise.all([
             project,
             desc,
             link,
@@ -131,7 +131,7 @@ export async function getProjectDetail(request: Request, response: Response, nex
         ]);
 
         // Building the HTTP response
-        response.status(200).json({ intro, descriptions, links, categories, references, tools, images });
+        response.status(200).json({ intro, description, links, categories, references, tools, images });
     }
 
     catch (error) {
