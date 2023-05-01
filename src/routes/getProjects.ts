@@ -22,7 +22,10 @@ import { Project } from "../models/Project";
  * 
  * 2) Keep that filter results by:
  * - status
- * - indistry
+ * - industry
+ * 
+ * 3) Make sure property naming is consistent between "project" and "projectDescription"
+ * (descriptions, categories, references, images, tools)
  */
 export async function getProjects(request: Request, response: Response, next: NextFunction) {
 
@@ -49,29 +52,29 @@ export async function getProjects(request: Request, response: Response, next: Ne
         let projects = AppDataSource
         .getRepository(Project)
         .createQueryBuilder('projects')
-        .leftJoinAndSelect('projects.description', 'P_DES') // with all descriptions
-        .leftJoinAndSelect('projects.categories', 'p.cat') // with all categories
-        .leftJoinAndSelect('projects.reference', 'p.ref') // with all references
-        .leftJoinAndSelect('projects.image', 'p.img') // with all images
-        .leftJoinAndSelect('projects.tools', 'p.tools'); // with all tools
+        .leftJoinAndSelect('projects.description', 'descriptions')  // with all descriptions
+        .leftJoinAndSelect('projects.categories', 'categories')     // with all categories
+        .leftJoinAndSelect('projects.reference', 'references')      // with all references
+        .leftJoinAndSelect('projects.image', 'images')              // with all images
+        .leftJoinAndSelect('projects.tools', 'tools');              // with all tools
         
 
        
 
         // Filter by "status" only if the "status" is provided and of type "status"
         if (!isStatusType(status)) {
-            projects = projects.leftJoinAndSelect('projects.status', 'p.stat');
+            projects = projects.leftJoinAndSelect('projects.status', 'statuses');
         } else {
-            projects = projects.innerJoinAndSelect('projects.status', 'p.stat', 'p.stat.title = :bTitle', { bTitle: status });
+            projects = projects.innerJoinAndSelect('projects.status', 'statuses', 'statuses.title = :bTitle', { bTitle: status });
         }
 
        
 
         // Filter by "industryRef" only if the "industryRef" is provided and of type "industryRef"
         if (!isIndustryRefType(industry)) {
-            projects = projects.leftJoinAndSelect('projects.industries', 'p.ind');
+            projects = projects.leftJoinAndSelect('projects.industries', 'industries');
         } else {
-            projects = projects.innerJoinAndSelect('projects.industries', 'p.ind', 'p.ind.refName = :cTitle', { cTitle: industry });
+            projects = projects.innerJoinAndSelect('projects.industries', 'industries', 'industries.refName = :cTitle', { cTitle: industry });
         }
 
 

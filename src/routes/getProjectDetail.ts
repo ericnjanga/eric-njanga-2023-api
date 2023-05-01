@@ -112,7 +112,7 @@ export async function getProjectDetail(request: Request, response: Response, nex
             .where('image.projectId = :projectId', {
                 projectId: (await project).id
             })
-            .getMany();
+            .getOne();
 
         
 
