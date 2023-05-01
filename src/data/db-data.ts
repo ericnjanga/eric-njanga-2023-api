@@ -133,8 +133,8 @@ export const PROJECTS: any = {
         },
         references: {
             name        : 'meroe-global',
-            startDate   : '2020-08',
-            endDate     : '2020-10',
+            startDate   : '08-2020',
+            endDate     : '10-2020',
             industry    : 'Communication',
             teamCount   : 2,
         },
@@ -847,15 +847,15 @@ export const PROJECTS: any = {
         pageUrl: 'prototyping-of-an-ai-based-healthcare-diagnostic-tool',
         descriptions: {
             title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
-            context             : '** context',
+            context             : 'A PHD candidate has created a prediction and prevention system for the Hepatitis B virus (a severe liver disease) using using AI Algorithms. Hepatitis B virus affects approximately 296 million people including over 6 million children under the age of 5 and is responsible for 820,000 deaths a year. Access to testing is a matter of life and death as most patients don\'t see symptoms until it is too late (thus its nickname of "silent killer"). Testing is unfortunately out of reach for people in low-resource because it is expensive and requires specialized skills. Machine learning can streamline the diagnostic process and allow physicians to detect ealy signs of illness with minimal efforts.',
             contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
             git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
+            figma           : 'https://www.figma.com/file/QFsXQd7dJYeUjHmdQ0YOI9/Project-31%3A-Hepatitis-B-Prediction-UI?node-id=68-1846&t=accKFufNmfSq9gOe-0',
+            figmaJam        : 'https://www.figma.com/file/VZcTnP1iuspfzdGZ7XsUx6/Project-31?node-id=0-1&t=accKFufNmfSq9gOe-0',
+            prototype       : 'https://www.figma.com/proto/QFsXQd7dJYeUjHmdQ0YOI9/Project-31%3A-Hepatitis-B-Prediction-UI?node-id=77-2185&scaling=min-zoom&page-id=68%3A1846',
             presentation    : 'presentation...',
             live            : 'live...',
         },
