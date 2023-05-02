@@ -1,0 +1,30 @@
+
+
+## Describe a table
+\d "DESCRIPTIONS";
+
+
+
+
+UPDATE "CATEGORIES" SET projectContribution = 'new title' WHERE id = 345;
+
+
+select "projectId.CATEGORIES", "projectContribution.CATEGORIES" from "CATEGORIES";
+
+
+990
+
+
+## Sample
+SELECT * FROM "CATEGORIES" WHERE "projectId" = 990;
+SELECT * FROM "DESCRIPTIONS" WHERE "projectId" = 990;
+
+## ...
+UPDATE "CATEGORIES" SET "projectContribution" = "I've designed the end-to-end experience for physicians using this AI predictor. The design prototype shows the different steps of interaction with the AI, from entering patient data, handeling errors, to receiving a variety of results." WHERE id = 990;
+
+
+
+UPDATE "DESCRIPTIONS" SET constraints = 'I had no access to users (physicians treating HBV), no experience with medical AI and no context on HBV treatment. I overcame my limitations through thourough research, reading additional documentation (provided by my stakeholder), and imagination (picturing mentally what a HBV physician would expect from an AI).'  WHERE "projectId" = 990;
+
+
+
