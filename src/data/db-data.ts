@@ -12,11 +12,11 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
             live            : 'https://www.loblaws.ca/marketplace',
         },
         industries: [
@@ -91,12 +91,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -157,12 +157,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -223,12 +223,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -289,12 +289,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -375,12 +375,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -441,12 +441,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -527,12 +527,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -600,12 +600,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -666,12 +666,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -746,12 +746,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -830,7 +830,7 @@ export const PROJECTS: any = {
             name        : 'tcholli-ui-design',
             startDate   : '11-2022',
             endDate     : '02-2023',
-            industry    : 'Commercial Airlines',
+            industry    : 'Commercial Flights',
             teamCount   : 3,
         },
         images: {
@@ -852,12 +852,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
+            git             : '',
             figma           : 'https://www.figma.com/file/QFsXQd7dJYeUjHmdQ0YOI9/Project-31%3A-Hepatitis-B-Prediction-UI?node-id=68-1846&t=accKFufNmfSq9gOe-0',
             figmaJam        : 'https://www.figma.com/file/VZcTnP1iuspfzdGZ7XsUx6/Project-31?node-id=0-1&t=accKFufNmfSq9gOe-0',
             prototype       : 'https://www.figma.com/proto/QFsXQd7dJYeUjHmdQ0YOI9/Project-31%3A-Hepatitis-B-Prediction-UI?node-id=77-2185&scaling=min-zoom&page-id=68%3A1846',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -925,12 +925,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
@@ -1004,12 +1004,12 @@ export const PROJECTS: any = {
             constraints         : '** constraints'
         },
         links: {
-            git             : 'git...',
-            figma           : 'figma...',
-            figmaJam        : 'figmaJam...',
-            prototype       : 'prototype...',
-            presentation    : 'presentation...',
-            live            : 'live...',
+            git             : '',
+            figma           : '',
+            figmaJam        : '',
+            prototype       : '',
+            presentation    : '',
+            live            : '',
         },
         industries: [
             {
