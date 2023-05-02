@@ -16,15 +16,17 @@ select "projectId.CATEGORIES", "projectContribution.CATEGORIES" from "CATEGORIES
 
 
 ## Sample
-SELECT * FROM "CATEGORIES" WHERE "projectId" = 990;
-SELECT * FROM "DESCRIPTIONS" WHERE "projectId" = 990;
+SELECT * FROM "CATEGORIES" WHERE "projectId" = 982;
+SELECT * FROM "DESCRIPTIONS" WHERE "projectId" = 982;
 
-## ...
-UPDATE "CATEGORIES" SET "projectContribution" = "I've designed the end-to-end experience for physicians using this AI predictor. The design prototype shows the different steps of interaction with the AI, from entering patient data, handeling errors, to receiving a variety of results." WHERE id = 990;
+## Update `projectContribution` column of "CATEGORIES" at row 982 ...
+UPDATE "CATEGORIES" SET "projectContribution" = 'I`ve designed the end-to-end experience for users (young female) selecting a product, and trying it out by uploading their picture. The design prototype shows users` data capture (Voodoos` primary objective), and product selection.' WHERE "projectId" = 982;
 
-
-
-UPDATE "DESCRIPTIONS" SET constraints = 'I had no access to users (physicians treating HBV), no experience with medical AI and no context on HBV treatment. I overcame my limitations through thourough research, reading additional documentation (provided by my stakeholder), and imagination (picturing mentally what a HBV physician would expect from an AI).'  WHERE "projectId" = 990;
-
+## Update `context` column of "DESCRIPTIONS" at row 982 ...
+UPDATE "DESCRIPTIONS" SET context = 'Voodoo, a West African Digital agency is planning a marketing campaign to attract a new customer segment for several of its clients. They need to create a mobile application that stimlates users interest on their clients products (apparels, jewellry, ...). A concept of the application is first needed for executive approval.'  WHERE "projectId" = 982;
 
 
+
+
+
+UPDATE "CATEGORIES" SET "projectContribution" = '?????' WHERE id = 982;

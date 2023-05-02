@@ -218,14 +218,14 @@ export const PROJECTS: any = {
         pageUrl: 'prototyping-a-conversion-funnel-for-a-beauty-marketing-campaign', 
         descriptions: {
             title: 'Prototyping a conversion funnel for a beauty marketing campaign', 
-            context             : '** context',
+            context             : 'Voodoo, a West African Digital agency is planning a marketing campaign to attract a new customer segment for several of its clients. They need to create a mobile application that stimlates users interest on their clients products (apparels, jewellry, ...). A concept of the application is first needed for executive approval.',
             constraints         : '** constraints'
         },
         links: {
             git             : '',
-            figma           : '',
+            figma           : 'https://www.figma.com/file/mcH4703YtBV7Uu8F8XD2uT/Project-12---Prototyping-a-conversion-funnel-for-a-beauty-marketing-campaign?node-id=0-1&t=DUduUUbxQjrBVsvt-0',
             figmaJam        : '',
-            prototype       : '',
+            prototype       : 'https://www.figma.com/proto/mcH4703YtBV7Uu8F8XD2uT/Project-12---Prototyping-a-conversion-funnel-for-a-beauty-marketing-campaign?node-id=1-45&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A45&show-proto-sidebar=1',
             presentation    : '',
             live            : '',
         },
@@ -244,7 +244,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
-                projectContribution         : '** contribution',
+                projectContribution         : 'I\'ve designed the end-to-end experience for users (young female) selecting a product, and trying it out by uploading their picture. The design prototype shows user\'s data capture (Voodoo\'s primary objective), and product selection.',
                 shortDescription: ''
             }
         ],
@@ -264,10 +264,10 @@ export const PROJECTS: any = {
             shortDescription: ''
         },
         references: {
-            name        : 'activation-beaute',
+            name        : 'Activation beaute mobile app',
             startDate   : '04-2021',
             endDate     : '05-2021',
-            industry    : 'Advertising',
+            industry    : 'Advertising & apparel',
             teamCount   : 2,
         },
         images: {
@@ -289,9 +289,9 @@ export const PROJECTS: any = {
         },
         links: {
             git             : '',
-            figma           : '',
+            figma           : 'https://www.figma.com/file/MYDZTMBKn4gJKkgue3I5fI/Project-13---BBPlayers?node-id=0-1&t=n79DsnMnJd4eMzyj-0',
             figmaJam        : '',
-            prototype       : '',
+            prototype       : 'https://www.figma.com/proto/MYDZTMBKn4gJKkgue3I5fI/Project-13---BBPlayers?node-id=1-343&scaling=min-zoom&page-id=0%3A1',
             presentation    : '',
             live            : '',
         },
@@ -750,9 +750,9 @@ export const PROJECTS: any = {
         },
         links: {
             git             : '',
-            figma           : '',
-            figmaJam        : '',
-            prototype       : '',
+            figma           : 'https://www.figma.com/file/b7oUZpO3XszUmNVygm0YAa/Project-25---Tcholli-Design?node-id=9-86&t=W4yeTLq17qiCL6CN-0',
+            figmaJam        : 'https://www.figma.com/file/Shx3FzWFXDYq2GlCA0yj8Z/Project-25?node-id=0-1&t=W4yeTLq17qiCL6CN-0',
+            prototype       : 'https://www.figma.com/proto/b7oUZpO3XszUmNVygm0YAa/Project-25---Tcholli-Design?node-id=562-7955&scaling=scale-down&page-id=9%3A86&starting-point-node-id=562%3A7955',
             presentation    : '',
             live            : '',
         },
@@ -854,7 +854,7 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
             context             : 'A PHD candidate has created a prediction and prevention system for the Hepatitis B virus (a severe liver disease) using using AI Algorithms. Hepatitis B virus affects approximately 296 million people including over 6 million children under the age of 5 and is responsible for 820,000 deaths a year. Access to testing is a matter of life and death as most patients don\'t see symptoms until it is too late (thus its nickname of "silent killer"). Testing is unfortunately out of reach for people in low-resource because it is expensive and requires specialized skills. Machine learning can streamline the diagnostic process and allow physicians to detect ealy signs of illness with minimal efforts.',
-            constraints         : '** constraints'
+            constraints         : 'I had no access to users (physicians treating HBV), no experience with medical AI and no context on HBV treatment. I overcame my limitations through thourough research, reading additional documentation (provided by my stakeholder), and imagination (picturing mentally what a HBV physician would expect from an AI)',
         },
         links: {
             git             : '',
