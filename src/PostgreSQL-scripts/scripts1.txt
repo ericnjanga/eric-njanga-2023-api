@@ -34,4 +34,10 @@ UPDATE "LINKS" SET prototype = 'https://www.figma.com/proto/MYDZTMBKn4gJKkgue3I5
 
 
 
-UPDATE "LINKS" SET figma = 'https://www.figma.com/file/dsB70Mzcj31Yzz8Vz5BEAz/Project-10---helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing-page?node-id=0-1&t=wzsRFfnCJXVA6DTw-0'  WHERE "projectId" = 989;
+UPDATE "LINKS" SET figma = 'https://www.figma.com/file/dsB70Mzcj31Yzz8Vz5BEAz/Project-10---helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing-page?node-id=0-1&t=wzsRFfnCJXVA6DTw-0' WHERE "projectId" = 989;
+
+
+
+UPDATE "LINKS" SET figma = 'https://www.figma.com/file/b7oUZpO3XszUmNVygm0YAa/Project-25---Fixing-a-nightmarish-booking-system?node-id=9-86&t=wzsRFfnCJXVA6DTw-0' WHERE "projectId" = 989;
+UPDATE "LINKS" SET "figmaJam" = 'https://www.figma.com/file/Shx3FzWFXDYq2GlCA0yj8Z/Project-25---Fixing-a-nightmarish-booking-system?node-id=0-1&t=fID9ZF5HVKgAVWIA-0' WHERE "projectId" = 989;
+UPDATE "LINKS" SET prototype = 'https://www.figma.com/proto/b7oUZpO3XszUmNVygm0YAa/Project-25---Fixing-a-nightmarish-booking-system?node-id=562-7955&scaling=scale-down&page-id=9%3A86&starting-point-node-id=562%3A7955' WHERE "projectId" = 989;
