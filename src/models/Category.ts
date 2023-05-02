@@ -21,6 +21,9 @@ export class Category {
     refName    : string;
 
     @Column()
+    projectContribution         : string;
+
+    @Column()
     shortDescription         : string; //shortDescription
 
     // (1 to a relationship) ...

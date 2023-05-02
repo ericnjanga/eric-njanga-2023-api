@@ -17,8 +17,8 @@ export class Description {
     @Column()
     context         : string;
 
-    @Column()
-    contribution         : string;
+    // @Column() --- erase this after May 2nd
+    // contribution         : string;
 
     @Column()
     constraints         : string;

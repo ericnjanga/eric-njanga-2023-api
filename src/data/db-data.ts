@@ -8,7 +8,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Coding a food retail giant\'s online extension',
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -34,6 +33,7 @@ export const PROJECTS: any = {
                 seqNo   : 0,
                 title: 'Single Page App',
                 refName: 'single-page-app',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -87,7 +87,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Helping to boost the online presence of a niche agency with a landing page', 
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -113,6 +112,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -153,7 +153,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Helping a coaching group showcase their service with a website', 
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -179,6 +178,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -219,7 +219,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Prototyping a conversion funnel for a beauty marketing campaign', 
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -245,6 +244,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -285,7 +285,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Helping a non-profit basketball club attract donations with a landing page', 
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -318,6 +317,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             },
             {
@@ -325,6 +325,7 @@ export const PROJECTS: any = {
                 seqNo   : 3,
                 title: 'CMS Development',
                 refName: 'cms-development',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -371,7 +372,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Creating a showcase and corversion page for a business coach',
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -397,6 +397,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -437,7 +438,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Helping an african business consulting startup showcse their service', 
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -470,6 +470,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             },
             {
@@ -477,6 +478,7 @@ export const PROJECTS: any = {
                 seqNo   : 3,
                 title: 'CMS Development',
                 refName: 'cms-development',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -523,7 +525,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Helping a non-profit organisation attract new donnors with a custom landing page', 
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -549,6 +550,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -596,7 +598,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Coding showcase website for a british consulting startup', 
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -622,6 +623,7 @@ export const PROJECTS: any = {
                 seqNo   : 3,
                 title: 'CMS Development',
                 refName: 'cms-development',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -662,7 +664,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Creating a proof of concept for an african social ecommerce startup',
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -688,6 +689,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             },
             {
@@ -695,6 +697,7 @@ export const PROJECTS: any = {
                 seqNo   : 2,
                 title: 'Concept Analysis',
                 refName: 'concept-analysis',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             },
             {
@@ -702,6 +705,7 @@ export const PROJECTS: any = {
                 seqNo   : 4,
                 title: 'eCommerce',
                 refName: 'e-commerce',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -742,7 +746,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Fixing a nightmarish booking system', 
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -775,6 +778,7 @@ export const PROJECTS: any = {
                 seqNo   : 0,
                 title: 'Single Page App',
                 refName: 'single-page-app',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             },
             {
@@ -782,6 +786,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             },
             {
@@ -789,6 +794,7 @@ export const PROJECTS: any = {
                 seqNo   : 2,
                 title: 'Concept Analysis',
                 refName: 'concept-analysis',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -848,7 +854,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
             context             : 'A PHD candidate has created a prediction and prevention system for the Hepatitis B virus (a severe liver disease) using using AI Algorithms. Hepatitis B virus affects approximately 296 million people including over 6 million children under the age of 5 and is responsible for 820,000 deaths a year. Access to testing is a matter of life and death as most patients don\'t see symptoms until it is too late (thus its nickname of "silent killer"). Testing is unfortunately out of reach for people in low-resource because it is expensive and requires specialized skills. Machine learning can streamline the diagnostic process and allow physicians to detect ealy signs of illness with minimal efforts.',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -874,6 +879,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : 'I\'ve designed the end-to-end experience for physicians using this AI predictor. The design prototype shows the different steps of interaction with the AI, from entering patient data, handeling errors, to receiving a variety of results.',
                 shortDescription: ''
             }
         ],
@@ -921,7 +927,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Connecting the dots of a social business', 
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -947,6 +952,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
@@ -1000,7 +1006,6 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Helping to showcase a multi-faced business with a showcase website', 
             context             : '** context',
-            contribution        : '** contribution',
             constraints         : '** constraints'
         },
         links: {
@@ -1033,6 +1038,7 @@ export const PROJECTS: any = {
                 seqNo   : 0,
                 title: 'Single Page App',
                 refName: 'single-page-app',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             },
             {
@@ -1040,6 +1046,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
+                projectContribution         : '** contribution',
                 shortDescription: ''
             }
         ],
