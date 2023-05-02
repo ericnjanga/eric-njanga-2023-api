@@ -83,7 +83,7 @@ export const PROJECTS: any = {
     10: {
         id: 10,
         seqNo   : 0,
-        pageUrl: 'helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing page',
+        pageUrl: 'helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing-page',
         descriptions: {
             title: 'Helping to boost the online presence of a niche agency with a landing page', 
             context             : '** context',
@@ -91,7 +91,7 @@ export const PROJECTS: any = {
         },
         links: {
             git             : '',
-            figma           : '',
+            figma           : 'https://www.figma.com/file/dsB70Mzcj31Yzz8Vz5BEAz/Project-10---helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing-page?node-id=0-1&t=wzsRFfnCJXVA6DTw-0',
             figmaJam        : '',
             prototype       : '',
             presentation    : '',
@@ -157,7 +157,7 @@ export const PROJECTS: any = {
         },
         links: {
             git             : '',
-            figma           : '',
+            figma           : 'https://www.figma.com/file/IZ9QabBHvNqthZc4VQmOKM/Project-11---Helping-a-coaching-group-showcase-their-service-with-a-website?node-id=0-1&t=yEs0nGKZIzQ3VDrf-0',
             figmaJam        : '',
             prototype       : '',
             presentation    : '',
@@ -219,7 +219,7 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Prototyping a conversion funnel for a beauty marketing campaign', 
             context             : 'Voodoo, a West African Digital agency is planning a marketing campaign to attract a new customer segment for several of its clients. They need to create a mobile application that stimlates users interest on their clients products (apparels, jewellry, ...). A concept of the application is first needed for executive approval.',
-            constraints         : '** constraints'
+            constraints         : 'I had no access to users, no prior experience with the jewellery business, and not enough time for research. I overcame my limitations by studying similar applications, by relying on my extensive experience in development, and by using stakeholder\'s insights to enrich my imagination.'
         },
         links: {
             git             : '',
@@ -742,7 +742,7 @@ export const PROJECTS: any = {
     25: {
         id: 25,
         seqNo   : 25,
-        pageUrl: '25-fixing-a-nightmarish-booking-system',
+        pageUrl: 'fixing-a-nightmarish-booking-system',
         descriptions: {
             title: 'Fixing a nightmarish booking system', 
             context             : '** context',
@@ -750,9 +750,9 @@ export const PROJECTS: any = {
         },
         links: {
             git             : '',
-            figma           : 'https://www.figma.com/file/b7oUZpO3XszUmNVygm0YAa/Project-25---Tcholli-Design?node-id=9-86&t=W4yeTLq17qiCL6CN-0',
-            figmaJam        : 'https://www.figma.com/file/Shx3FzWFXDYq2GlCA0yj8Z/Project-25?node-id=0-1&t=W4yeTLq17qiCL6CN-0',
-            prototype       : 'https://www.figma.com/proto/b7oUZpO3XszUmNVygm0YAa/Project-25---Tcholli-Design?node-id=562-7955&scaling=scale-down&page-id=9%3A86&starting-point-node-id=562%3A7955',
+            figma           : 'https://www.figma.com/file/b7oUZpO3XszUmNVygm0YAa/Project-25---Fixing-a-nightmarish-booking-system?node-id=9-86&t=wzsRFfnCJXVA6DTw-0',
+            figmaJam        : 'https://www.figma.com/file/Shx3FzWFXDYq2GlCA0yj8Z/Project-25---Fixing-a-nightmarish-booking-system?node-id=0-1&t=fID9ZF5HVKgAVWIA-0',
+            prototype       : 'https://www.figma.com/proto/b7oUZpO3XszUmNVygm0YAa/Project-25---Fixing-a-nightmarish-booking-system?node-id=562-7955&scaling=scale-down&page-id=9%3A86&starting-point-node-id=562%3A7955',
             presentation    : '',
             live            : '',
         },
@@ -833,7 +833,7 @@ export const PROJECTS: any = {
             shortDescription: ''
         },
         references: {
-            name        : 'tcholli-ui-design',
+            name        : 'Tcholli UI Design',
             startDate   : '11-2022',
             endDate     : '02-2023',
             industry    : 'Commercial Flights',

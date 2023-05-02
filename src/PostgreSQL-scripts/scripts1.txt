@@ -25,8 +25,13 @@ UPDATE "CATEGORIES" SET "projectContribution" = 'I`ve designed the end-to-end ex
 ## Update `context` column of "DESCRIPTIONS" at row 982 ...
 UPDATE "DESCRIPTIONS" SET context = 'Voodoo, a West African Digital agency is planning a marketing campaign to attract a new customer segment for several of its clients. They need to create a mobile application that stimlates users interest on their clients products (apparels, jewellry, ...). A concept of the application is first needed for executive approval.'  WHERE "projectId" = 982;
 
+## Update `constraints` column of "DESCRIPTIONS" at row 982 ...
+UPDATE "DESCRIPTIONS" SET constraints = 'I had no access to users, no prior experience with the jewellery business, and not enough time for research. I overcame my limitations by studying similar applications, by relying on my extensive experience in development, and by using stakeholder`s insights to enrich my imagination.'  WHERE "projectId" = 982;
+
+## Update `figma` column of "LINKS" at row 983 ...
+UPDATE "LINKS" SET figma = 'https://www.figma.com/file/MYDZTMBKn4gJKkgue3I5fI/Project-13---BBPlayers?node-id=0-1&t=n79DsnMnJd4eMzyj-0'  WHERE "projectId" = 983;
+UPDATE "LINKS" SET prototype = 'https://www.figma.com/proto/MYDZTMBKn4gJKkgue3I5fI/Project-13---BBPlayers?node-id=1-343&scaling=min-zoom&page-id=0%3A1'  WHERE "projectId" = 983;
 
 
 
-
-UPDATE "CATEGORIES" SET "projectContribution" = '?????' WHERE id = 982;
+UPDATE "LINKS" SET figma = 'https://www.figma.com/file/dsB70Mzcj31Yzz8Vz5BEAz/Project-10---helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing-page?node-id=0-1&t=wzsRFfnCJXVA6DTw-0'  WHERE "projectId" = 989;
