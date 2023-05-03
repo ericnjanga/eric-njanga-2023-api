@@ -7,8 +7,8 @@ export const PROJECTS: any = {
         pageUrl: 'coding-a-food-retail-giants-online-extension',
         descriptions: {
             title: 'Coding a food retail giant\'s online extension',
-            context             : '** context',
-            constraints         : '** constraints'
+            context             : 'A food retail giant is expanding it\'s online store with a marketplace. The store is a large-scale REACT application that need expert coding for the extgension to be successful.',
+            constraints         : 'I had virtually no constraints/challenges. The project was expertly managed by a scrum master who ensured a very smooth project-execution.'
         },
         links: {
             git             : '',
@@ -34,7 +34,7 @@ export const PROJECTS: any = {
                 seqNo   : 0,
                 title: 'Single Page App',
                 refName: 'single-page-app',
-                projectContribution         : '** contribution',
+                projectContribution         : 'I was part of a large team of 30+ developers and managed a small team of my own. I made high-level decision simple and manageable for the team. I was part of an agile team, brainstormed with other developers, collaborated with UX designers and coded extensively in TypeScript.',
                 shortDescription: ''
             }
         ],
@@ -87,8 +87,8 @@ export const PROJECTS: any = {
         pageUrl: 'helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing-page',
         descriptions: {
             title: 'Helping to boost the online presence of a niche agency with a landing page', 
-            context             : '** context',
-            constraints         : '** constraints'
+            context             : 'A niche communication agency who specialized in the African market needs a website for showcase only (no need for voncersion or sales).',
+            constraints         : 'I had no access to users and had to assume everything. I managed to create personas and user flows, but nothing was fact-based.'
         },
         links: {
             git             : '',
@@ -114,7 +114,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
-                projectContribution         : '** contribution',
+                projectContribution         : 'I\'ve a design prototype that goes straight to the point. The design presents the company, the team and its services. Designs are are basic and minimaalistic.',
                 shortDescription: ''
             }
         ],
@@ -154,8 +154,8 @@ export const PROJECTS: any = {
         pageUrl: 'helping-a-coaching-group-showcase-their-service-with-a-website',
         descriptions: {
             title: 'Helping a coaching group showcase their service with a website', 
-            context             : '** context',
-            constraints         : '** constraints'
+            context             : 'A group of entrepreneurs is kicking off their activites and need a multi-purpose website (organisation and activities showcase, prospect conversion, consultation booking, ...).',
+            constraints         : 'Wix was the CMS of choice for this project, so I had to adapt my designs to WIX templates and test-code the WIX ecosystem. Stakeholders had a very strong opinion about the visual designs and made lots of demands (some of them violating design principles); I had to devote extra time/efforts educating them and offering alternatives.'
         },
         links: {
             git             : '',
@@ -181,7 +181,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
-                projectContribution         : '** contribution',
+                projectContribution         : 'I\'ve designed a 5-page prototype website that is responsive and custom-made for WIX. The designs are focused on user conversion and company showcasing. I managed to adapt to the information provided by stakeholders, which was a major challenge at time because they kept changing their minds (but we were all happy at the end).',
                 shortDescription: ''
             }
         ],
@@ -288,8 +288,8 @@ export const PROJECTS: any = {
         pageUrl: 'helping-a-non-profit-basketball-club-attract-donations-with-a-landing-page',
         descriptions: {
             title: 'Helping a non-profit basketball club attract donations with a landing page', 
-            context             : '** context',
-            constraints         : '** constraints'
+            context             : 'The African community of Chatillon (Paris suburbs, France) needs to raise funds and attract new adherants for their community basketball club. A landing page sounds like the perfect all-in-one solution (conversion, fund raison, service showcase).',
+            constraints         : 'I had no access to users, which made it impossible to validate stakeholders\' assumption and ensure the design works for them.'
         },
         links: {
             git             : '',
@@ -322,7 +322,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
-                projectContribution         : '** contribution',
+                projectContribution         : 'I\'ve designed a one-page wesite with the primary objective of converting/appealing to new subscribers and donnors. The page also appeal to existing members has it displays schedules and upcoming activities.',
                 shortDescription: ''
             },
             {
@@ -330,7 +330,7 @@ export const PROJECTS: any = {
                 seqNo   : 3,
                 title: 'CMS Development',
                 refName: 'cms-development',
-                projectContribution         : '** contribution',
+                projectContribution         : 'I\'ve developed a responsive WordPress theme from scratch (desktop, tablet, mobile). I\'ve applied custom CSS and JavaScript for a smoother and more precise experience (animation, smooth scroll, ...) and completed the code with plugins (videos, slider, ...).',
                 shortDescription: ''
             }
         ],
@@ -865,7 +865,7 @@ export const PROJECTS: any = {
         descriptions: {
             title: 'Prototyping of an AI-based Healthcare Diagnostic Tool',
             context             : 'A PHD candidate has created a prediction and prevention system for the Hepatitis B virus (a severe liver disease) using using AI Algorithms. Hepatitis B virus affects approximately 296 million people including over 6 million children under the age of 5 and is responsible for 820,000 deaths a year. Access to testing is a matter of life and death as most patients don\'t see symptoms until it is too late (thus its nickname of "silent killer"). Testing is unfortunately out of reach for people in low-resource because it is expensive and requires specialized skills. Machine learning can streamline the diagnostic process and allow physicians to detect ealy signs of illness with minimal efforts.',
-            constraints         : 'I had no access to users (physicians treating HBV), no experience with medical AI and no context on HBV treatment. I overcame my limitations through thourough research, reading additional documentation (provided by my stakeholder), and imagination (picturing mentally what a HBV physician would expect from an AI)',
+            constraints         : 'I had no access to users (physicians treating HBV), no experience with medical AI and no context on HBV treatment. I overcame my limitations through thourough research, reading additional documentation (provided by my stakeholder), and imagination (picturing mentally what a HBV physician would expect from an AI).',
         },
         links: {
             git             : '',

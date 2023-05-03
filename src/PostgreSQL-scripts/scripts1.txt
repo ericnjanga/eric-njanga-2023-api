@@ -6,7 +6,7 @@
 
 
 
-UPDATE "CATEGORIES" SET projectContribution = 'new title' WHERE id = 345;
+UPDATE "CATEGORIES" SET projectContribution = 'new title' WHERE id = 994;
 
 
 select "projectId.CATEGORIES", "projectContribution.CATEGORIES" from "CATEGORIES";
@@ -16,15 +16,12 @@ select "projectId.CATEGORIES", "projectContribution.CATEGORIES" from "CATEGORIES
 
 
 ## Sample
-SELECT * FROM "CATEGORIES" WHERE "projectId" = 989;
-SELECT * FROM "DESCRIPTIONS" WHERE "projectId" = 989;
+SELECT * FROM "CATEGORIES" WHERE "projectId" = 994;
+SELECT * FROM "DESCRIPTIONS" WHERE "projectId" = 994;
 
-## Update `projectContribution` column of "CATEGORIES" at row 982 ...
-UPDATE "CATEGORIES" SET "projectContribution" = 'I`ve designed the end-to-end flight booking experience (one-way and roundtrip). I used my knowledge of users to adapt the prototype to local costums while keeping it simple, good-looking, and straight to the point (searching for flight, prices and booking).' WHERE "title" = 'Concept Design' AND "projectId" = 989;
-UPDATE "CATEGORIES" SET "projectContribution" = 'I`ve converted my designs into a pixel-perfect Angular application with custom routes. Given that the API wasn`t yet available, I`ve used a service to inject mocked data (large JSON object) in the application and render all the views.' WHERE "title" = 'Single Page App' AND "projectId" = 989;
-
-
-            constraints         : 'This project is one of the most challenging. First, because of time Zone differences (stakeholders` busy schedule made remote collaboration tricky). Second, because of an alignment problem with stakeholders who had a limited understanding of UX proceedures. Finally, because we faced numerous technical challenges and had to switch our approach several times.'
+## Update `projectContribution` column of "CATEGORIES" at row 994 ...
+UPDATE "CATEGORIES" SET "projectContribution" = 'I was part of a large team of 30+ developers and managed a small team of my own. I made high-level decision simple and manageable for the team. I was part of an agile team, brainstormed with other developers, collaborated with UX designers and coded extensively in TypeScript.' WHERE "title" = 'Single Page App' AND "projectId" = 994;
+UPDATE "CATEGORIES" SET "projectContribution" = 'I`ve converted my designs into a pixel-perfect Angular application with custom routes. Given that the API wasn`t yet available, I`ve used a service to inject mocked data (large JSON object) in the application and render all the views.' WHERE "title" = 'Single Page App' AND "projectId" = 994;
 
 
 
@@ -33,14 +30,28 @@ UPDATE "CATEGORIES" SET "projectContribution" = 'I`ve converted my designs into 
 
 
 
-## Update `projectContribution` column of "CATEGORIES" at row 982 ...
-UPDATE "CATEGORIES" SET "projectContribution" = 'I`ve designed the end-to-end experience for users (young female) selecting a product, and trying it out by uploading their picture. The design prototype shows users` data capture (Voodoos` primary objective), and product selection.' WHERE "projectId" = 982;
+## Update `projectContribution` column of "CATEGORIES" at row 994 ...
 
-## Update `context` column of "DESCRIPTIONS" at row 989 ...
-UPDATE "DESCRIPTIONS" SET context = 'Booking flights in Cameroon is a nightmare. Phone bookings are inconvenient and hazardous, call center agent are running scams, black markets and price bidding wars, customers have become frustrated, distrustful and favor in-person booking. Tcholli, a local travelling agency wants to solve the problem with an application.'  WHERE "projectId" = 989;
+UPDATE "CATEGORIES" SET "projectContribution" = 'I`ve developed a responsive WordPress theme from scratch (desktop, tablet, mobile). I`ve applied custom CSS and JavaScript for a smoother and more precise experience (animation, smooth scroll, ...) and completed the code with plugins (videos, slider, ...).'  WHERE "title" = 'CMS Development' AND "projectId" = 994;
 
-## Update `constraints` column of "DESCRIPTIONS" at row 989 ...
-UPDATE "DESCRIPTIONS" SET constraints = 'This project is one of the most challenging. First, because of time Zone differences (stakeholders` busy schedule made remote collaboration tricky). Second, because of an alignment problem with stakeholders who had a limited understanding of UX proceedures. Finally, because we faced numerous technical challenges and had to switch our approach several times.'  WHERE "projectId" = 989;
+
+
+
+
+## Update `context` column of "DESCRIPTIONS" at row 994 ...
+UPDATE "DESCRIPTIONS" SET context = 'A niche communication agency who specialized in the African market needs a website for showcase only (no need for voncersion or sales).'  WHERE "projectId" = 994;
+
+
+
+
+
+## Update `constraints` column of "DESCRIPTIONS" at row 994 ...
+UPDATE "DESCRIPTIONS" SET constraints = 'I had no access to users and had to assume everything. I managed to create personas and user flows, but nothing was fact-based.'  WHERE "projectId" = 994;
+
+
+
+
+
 
 ## Update `figma` column of "LINKS" at row 983 ...
 UPDATE "LINKS" SET figma = 'https://www.figma.com/file/MYDZTMBKn4gJKkgue3I5fI/Project-13---BBPlayers?node-id=0-1&t=n79DsnMnJd4eMzyj-0'  WHERE "projectId" = 983;
@@ -48,12 +59,12 @@ UPDATE "LINKS" SET prototype = 'https://www.figma.com/proto/MYDZTMBKn4gJKkgue3I5
 
 
 
-UPDATE "LINKS" SET figma = 'https://www.figma.com/file/dsB70Mzcj31Yzz8Vz5BEAz/Project-10---helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing-page?node-id=0-1&t=wzsRFfnCJXVA6DTw-0' WHERE "projectId" = 989;
+UPDATE "LINKS" SET figma = 'https://www.figma.com/file/dsB70Mzcj31Yzz8Vz5BEAz/Project-10---helping-to-boost-the-online-presence-of-a-niche-agency-with-a-landing-page?node-id=0-1&t=wzsRFfnCJXVA6DTw-0' WHERE "projectId" = 994;
 
 
 
-UPDATE "LINKS" SET figma = 'https://www.figma.com/file/b7oUZpO3XszUmNVygm0YAa/Project-25---Fixing-a-nightmarish-booking-system?node-id=9-86&t=wzsRFfnCJXVA6DTw-0' WHERE "projectId" = 989;
-UPDATE "LINKS" SET "figmaJam" = 'https://www.figma.com/file/Shx3FzWFXDYq2GlCA0yj8Z/Project-25---Fixing-a-nightmarish-booking-system?node-id=0-1&t=fID9ZF5HVKgAVWIA-0' WHERE "projectId" = 989;
-UPDATE "LINKS" SET prototype = 'https://www.figma.com/proto/b7oUZpO3XszUmNVygm0YAa/Project-25---Fixing-a-nightmarish-booking-system?node-id=562-7955&scaling=scale-down&page-id=9%3A86&starting-point-node-id=562%3A7955' WHERE "projectId" = 989;
+UPDATE "LINKS" SET figma = 'https://www.figma.com/file/b7oUZpO3XszUmNVygm0YAa/Project-25---Fixing-a-nightmarish-booking-system?node-id=9-86&t=wzsRFfnCJXVA6DTw-0' WHERE "projectId" = 994;
+UPDATE "LINKS" SET "figmaJam" = 'https://www.figma.com/file/Shx3FzWFXDYq2GlCA0yj8Z/Project-25---Fixing-a-nightmarish-booking-system?node-id=0-1&t=fID9ZF5HVKgAVWIA-0' WHERE "projectId" = 994;
+UPDATE "LINKS" SET prototype = 'https://www.figma.com/proto/b7oUZpO3XszUmNVygm0YAa/Project-25---Fixing-a-nightmarish-booking-system?node-id=562-7955&scaling=scale-down&page-id=9%3A86&starting-point-node-id=562%3A7955' WHERE "projectId" = 994;
 
 
