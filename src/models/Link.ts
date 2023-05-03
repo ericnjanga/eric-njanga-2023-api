@@ -29,6 +29,13 @@ export class Link {
     @Column()
     live         : string;
 
+    @Column()
+    devProcessVideo         : string;
+
+
+
+    
+
     // (1 to a relationship) ...
     // A description can be tied to only 1 project
     @OneToOne(() => Project, project => project.links)

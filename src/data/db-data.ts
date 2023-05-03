@@ -17,6 +17,7 @@ export const PROJECTS: any = {
             prototype       : '',
             presentation    : '',
             live            : 'https://www.loblaws.ca/marketplace',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -96,6 +97,7 @@ export const PROJECTS: any = {
             prototype       : '',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -162,6 +164,7 @@ export const PROJECTS: any = {
             prototype       : '',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -228,6 +231,7 @@ export const PROJECTS: any = {
             prototype       : 'https://www.figma.com/proto/mcH4703YtBV7Uu8F8XD2uT/Project-12---Prototyping-a-conversion-funnel-for-a-beauty-marketing-campaign?node-id=1-45&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A45&show-proto-sidebar=1',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -294,6 +298,7 @@ export const PROJECTS: any = {
             prototype       : 'https://www.figma.com/proto/MYDZTMBKn4gJKkgue3I5fI/Project-13---BBPlayers?node-id=1-343&scaling=min-zoom&page-id=0%3A1',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -381,6 +386,7 @@ export const PROJECTS: any = {
             prototype       : '',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -447,6 +453,7 @@ export const PROJECTS: any = {
             prototype       : '',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -534,6 +541,7 @@ export const PROJECTS: any = {
             prototype       : '',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -607,6 +615,7 @@ export const PROJECTS: any = {
             prototype       : '',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -673,6 +682,7 @@ export const PROJECTS: any = {
             prototype       : '',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -745,8 +755,8 @@ export const PROJECTS: any = {
         pageUrl: 'fixing-a-nightmarish-booking-system',
         descriptions: {
             title: 'Fixing a nightmarish booking system', 
-            context             : '** context',
-            constraints         : '** constraints'
+            context             : 'Booking flights in Cameroon is a nightmare. Phone bookings are inconvenient and hazardous, call center agent are running scams, black markets and price bidding wars, customers have become frustrated, distrustful and favor in-person booking. Tcholli, a local travelling agency wants to solve the problem with an application.',
+            constraints         : 'This project is one of the most challenging. First, because of time Zone differences (stakeholders\' busy schedule made remote collaboration tricky). Second, because of an alignment problem with stakeholders who had a limited understanding of UX proceedures. Finally, because we faced numerous technical challenges and had to switch our approach several times.'
         },
         links: {
             git             : '',
@@ -755,6 +765,7 @@ export const PROJECTS: any = {
             prototype       : 'https://www.figma.com/proto/b7oUZpO3XszUmNVygm0YAa/Project-25---Fixing-a-nightmarish-booking-system?node-id=562-7955&scaling=scale-down&page-id=9%3A86&starting-point-node-id=562%3A7955',
             presentation    : '',
             live            : '',
+            devProcessVideo : 'https://www.youtube.com/playlist?list=PLH4gX4Bi5EYsQclFVK7UqYDB47q0OxF5b',
         },
         industries: [
             {
@@ -778,7 +789,7 @@ export const PROJECTS: any = {
                 seqNo   : 0,
                 title: 'Single Page App',
                 refName: 'single-page-app',
-                projectContribution         : '** contribution',
+                projectContribution         : 'I\'ve converted my designs into a pixel-perfect Angular application with custom routes. Given that the API wasn\'t yet available, I\'ve used a service to inject mocked data (large JSON object) in the application and render all the views.',
                 shortDescription: ''
             },
             {
@@ -786,7 +797,7 @@ export const PROJECTS: any = {
                 seqNo   : 1,
                 title: 'Concept Design',
                 refName: 'concept-design',
-                projectContribution         : '** contribution',
+                projectContribution         : 'I\'ve designed the end-to-end flight booking experience (one-way and roundtrip). I used my knowledge of users to adapt the prototype to local costums while keeping it simple, good-looking, and straight to the point (searching for flight, prices and booking).',
                 shortDescription: ''
             },
             {
@@ -794,7 +805,7 @@ export const PROJECTS: any = {
                 seqNo   : 2,
                 title: 'Concept Analysis',
                 refName: 'concept-analysis',
-                projectContribution         : '** contribution',
+                projectContribution         : 'I\’ve redefined the problem posed by my stakeholder, studied the audience, created personas, set the design objectives, gathered and analyzed the information, created a site maps, and a user flow.',
                 shortDescription: ''
             }
         ],
@@ -863,6 +874,7 @@ export const PROJECTS: any = {
             prototype       : 'https://www.figma.com/proto/QFsXQd7dJYeUjHmdQ0YOI9/Project-31%3A-Hepatitis-B-Prediction-UI?node-id=77-2185&scaling=min-zoom&page-id=68%3A1846',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -936,6 +948,7 @@ export const PROJECTS: any = {
             prototype       : '',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
@@ -1015,6 +1028,7 @@ export const PROJECTS: any = {
             prototype       : '',
             presentation    : '',
             live            : '',
+            devProcessVideo : '',
         },
         industries: [
             {
