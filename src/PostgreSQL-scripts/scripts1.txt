@@ -20,7 +20,7 @@ SELECT * FROM "CATEGORIES" WHERE "projectId" = 994;
 SELECT * FROM "DESCRIPTIONS" WHERE "projectId" = 994;
 
 ## Update `projectContribution` column of "CATEGORIES" at row 994 ...
-UPDATE "CATEGORIES" SET "projectContribution" = 'I was part of a large team of 30+ developers and managed a small team of my own. I made high-level decision simple and manageable for the team. I was part of an agile team, brainstormed with other developers, collaborated with UX designers and coded extensively in TypeScript.' WHERE "title" = 'Single Page App' AND "projectId" = 994;
+UPDATE "CATEGORIES" SET "projectContribution" = 'I`ve a design prototype that goes straight to the point. The design presents the company, the team and its services. Designs are are basic and minimaalistic.' WHERE "title" = 'Concept Design' AND "projectId" = 994;
 UPDATE "CATEGORIES" SET "projectContribution" = 'I`ve converted my designs into a pixel-perfect Angular application with custom routes. Given that the API wasn`t yet available, I`ve used a service to inject mocked data (large JSON object) in the application and render all the views.' WHERE "title" = 'Single Page App' AND "projectId" = 994;
 
 

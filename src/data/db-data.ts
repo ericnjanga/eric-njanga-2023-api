@@ -365,7 +365,7 @@ export const PROJECTS: any = {
         images: {
             hero: './../../../assets/img/project-13-hero.png',
             body: './../../../assets/img/project-13-body.png',
-            type: 'laptop'
+            type: 'tablet'
         }
     }, 
 
@@ -785,14 +785,6 @@ export const PROJECTS: any = {
         ],
         categories: [
             {
-                id: 0,
-                seqNo   : 0,
-                title: 'Single Page App',
-                refName: 'single-page-app',
-                projectContribution         : 'I\'ve converted my designs into a pixel-perfect Angular application with custom routes. Given that the API wasn\'t yet available, I\'ve used a service to inject mocked data (large JSON object) in the application and render all the views.',
-                shortDescription: ''
-            },
-            {
                 id: 1,
                 seqNo   : 1,
                 title: 'Concept Design',
@@ -807,7 +799,15 @@ export const PROJECTS: any = {
                 refName: 'concept-analysis',
                 projectContribution         : 'I\’ve redefined the problem posed by my stakeholder, studied the audience, created personas, set the design objectives, gathered and analyzed the information, created a site maps, and a user flow.',
                 shortDescription: ''
-            }
+            },
+            {
+                id: 0,
+                seqNo   : 0,
+                title: 'Single Page App',
+                refName: 'single-page-app',
+                projectContribution         : 'I\'ve converted my designs into a pixel-perfect Angular application with custom routes. Given that the API wasn\'t yet available, I\'ve used a service to inject mocked data (large JSON object) in the application and render all the views.',
+                shortDescription: ''
+            },
         ],
         technologies: [
             {
@@ -819,12 +819,6 @@ export const PROJECTS: any = {
         ],
         tools: [
             {
-                id: 0,
-                seqNo   : 0,
-                title: 'Visual Studio Code',
-                shortDescription: ''
-            },
-            {
                 id: 3,
                 seqNo   : 3,
                 title: 'Figma Design',
@@ -835,7 +829,13 @@ export const PROJECTS: any = {
                 seqNo   : 5,
                 title: 'Figma Jam',
                 shortDescription: ''
-            }
+            },
+            {
+                id: 0,
+                seqNo   : 0,
+                title: 'Visual Studio Code',
+                shortDescription: ''
+            },
         ],
         status: {
             id: 2,
