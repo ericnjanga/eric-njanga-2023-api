@@ -1,4 +1,17 @@
 
+// Firebase imports
+import * as logger from "firebase-functions/logger";
+import * as functions from 'firebase-functions';
+
+
+
+
+
+
+
+
+
+
 // Environment variables must be loading before anything else
 import * as dotenv from 'dotenv';
 
@@ -17,7 +30,7 @@ import 'reflect-metadata'; // works with typeorm library (mustbe imported before
 import * as express from 'express';
 import { root } from './routes/root';
 import { isInteger } from './utils';
-import { logger } from './logger';
+// import { logger } from './logger';
 import { AppDataSource } from './data-source';
 import { getProjects } from './routes/getProjects';
 import { updateProject } from './routes/project-update';
@@ -128,7 +141,7 @@ function setupExpress () {
 function setupServer () {
     const portEnv = process.env.LIST_PORT!,
     portArg = process.argv[2];
-    let port;
+    let port: number;
 
     /**
      * - Use the port environment if available
@@ -156,10 +169,20 @@ function setupServer () {
 
 
 
-/**
- * Initialize the datasource first
- */
-AppDataSource.initialize()
+
+
+
+
+
+
+export const enAPI = functions.https.onRequest((req, res) => {
+    logger.info("Hello logs!", {structuredData: true});
+    // res.send("Hello from Firebase!");
+
+    /**
+     * Initialize the datasource first
+     */
+    AppDataSource.initialize()
     .then(() => {
         // Before starting the server
         logger.info(`The datasource has been initialized successfully.`);
@@ -170,3 +193,7 @@ AppDataSource.initialize()
         logger.info(`Error during datasource initialization.`, err);
         process.exit();
     });
+
+
+
+});

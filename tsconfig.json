@@ -3,6 +3,9 @@
         "target": "ES5",
         "outDir": "dist",
         "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
         "emitDecoratorMetadata": true
     }
 }
