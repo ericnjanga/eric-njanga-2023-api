@@ -1,9 +1,8 @@
 {
     "compilerOptions": {
         "target": "ES5",
-        "outDir": "dist",
+        "outDir": "deploy",
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
         "strictNullChecks": true,
         "strictPropertyInitialization": true,
         "emitDecoratorMetadata": true

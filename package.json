@@ -4,15 +4,15 @@
   "description": "Creating a REST-API from scratch",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf deploy",
     "build": "tsc",
-    "start-server": "node dist/server.js",
-    "start-dev-server": "tsc-watch --onSuccess \"node dist/server.js\"",
+    "start-server": "node deploy/server.js",
+    "start-dev-server": "tsc-watch --onSuccess \"node deploy/server.js\"",
     "dev": "npm-run-all clean build start-dev-server",
     "populate-db": "npm-run-all clean build run-populate-db-script",
-    "run-populate-db-script": "node dist/data/db-populate.js",
+    "run-populate-db-script": "node deploy/data/db-populate.js",
     "delete-db": "npm-run-all clean build run-delete-db-script",
-    "run-delete-db-script": "node dist/data/db-delete.js"
+    "run-delete-db-script": "node deploy/data/db-delete.js"
   },
   "author": "Eric Njanga",
   "license": "ISC",
