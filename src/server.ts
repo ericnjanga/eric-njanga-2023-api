@@ -126,7 +126,7 @@ function setupExpress () {
 
 
 function setupServer () {
-    const portEnv = process.env.LIST_PORT!,
+    const portEnv = process.env.PORT!,
     portArg = process.argv[2];
     let port;
 
