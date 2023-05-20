@@ -5,5 +5,3 @@ dist
 .env
 logs
 .DS_Store
-.firebaserc
-firebase.json
